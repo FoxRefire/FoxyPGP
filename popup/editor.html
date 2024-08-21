@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link href="/libs/material-icons/material-icons.css" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="/libs/materialize/materialize.min.css" media="screen,projection"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="/popup/popup.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- NavBar -->
+        <nav>
+            <div class="nav-wrapper">
+                <a class="brand-logo center">Editor</a>
+                <a href="/popup/manager.html"><i class="material-icons back_button">arrow_back</i></a>
+            </div>
+        </nav>
+
+        <div id="editor-block">
+            <div class="input-field">
+                <textarea id="editorText" class="editor-textarea materialize-textarea" required></textarea>
+                <label for="editorText">Content</label>
+            </div><br>
+            <div class="center">
+                <a tabindex="0" class="editor-tools btn filled icon-left" id="sign"><i class="material-icons">edit_square</i>Sign</a>
+                <a tabindex="0" class="editor-tools btn filled icon-left" id="verify"><i class="material-icons">fact_check</i>Verify</a>
+                <a tabindex="0" class="editor-tools btn filled icon-left" id="encrypt"><i class="material-icons">lock</i>Encrypt</a>
+                <a tabindex="0" class="editor-tools btn filled icon-left" id="decrypt"><i class="material-icons">lock_open</i>Decrypt</a>
+            </div>
+
+        </div>
+        <div id="selector-block" style="display: none;">
+            <ul class="collection" id="select-key">
+            </ul>
+        </div>
+
+        <script src="/libs/materialize/materialize.min.js"></script>
+        <script type="module" src="/popup/editor.js"></script>
+    </body>
+</html>

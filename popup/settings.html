@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link href="/libs/material-icons/material-icons.css" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="/libs/materialize/materialize.min.css" media="screen,projection"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="/popup/popup.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- NavBar -->
+        <nav>
+            <div class="nav-wrapper">
+                <a class="brand-logo center">Settings</a>
+                <a href="/popup/manager.html"><i class="material-icons back_button">arrow_back</i></a>
+            </div>
+        </nav>
+        <h4>Webpage</h4>
+        <div class="switch">
+            Show Context Menu
+            <label>
+                <input id="isContextMenu" type="checkbox" checked>
+                <span class="lever"></span>
+            </label>
+        </div>
+
+        <h4>Database</h4>
+        <a tabindex="0" class="btn filled icon-left" id="backupDB"><i class="material-icons">save</i>Backup Database</a>
+        <a tabindex="0" class="btn filled icon-left" id="restoreDB"><i class="material-icons">settings_backup_restore</i>Restore Backup</a>
+        <a tabindex="0" class="btn filled icon-left" id="clearDB"><i class="material-icons">delete_forever</i>Clear Database</a>
+
+        <h4>About</h4>
+        <table>
+            <tbody>
+                <tr>
+                    <th>App</th>
+                    <th>FoxyPGP</th>
+                </tr>
+                <tr>
+                    <th>Version</th>
+                    <th>1.0</th>
+                </tr>
+                <tr>
+                    <th>Author</th>
+                    <th><a href="https://github.com/FoxRefire" target="_blank">FoxRefire</a></th>
+                </tr>
+                <tr>
+                    <th>Source code</th>
+                    <th><a href="https://github.com/FoxRefire/FoxyPGP" target="_blank">https://github.com/FoxRefire/FoxyPGP</a></th>
+                </tr>
+                <tr>
+                    <th>License</th>
+                    <th><a href="https://github.com/FoxRefire/FoxyPGP/blob/main/LICENSE" target="_blank">GNU Affero General Public License v3.0</a></th>
+                </tr>
+            </tbody>
+        </table>
+
+        <script src="/libs/materialize/materialize.min.js"></script>
+        <script type="module" src="/popup/settings.js"></script>
+    </body>
+</html>

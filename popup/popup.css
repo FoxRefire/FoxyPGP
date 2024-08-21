@@ -1,0 +1,22 @@
+.key-textarea{
+    height: 6rem !important;
+    overflow-y: auto !important;
+}
+.editor-textarea{
+    height: 16rem !important;
+    overflow-y: auto !important;
+}
+.editor-tools{
+    margin: 1.5px !important;
+}
+.brand-logo{
+    color:greenyellow !important;
+}
+.back_button{
+    font-size: 32px !important;
+    color:white !important;
+}
+#keys-tbody{
+    color: #0af !important;
+    text-decoration: underline !important;
+}

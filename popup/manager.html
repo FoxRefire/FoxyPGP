@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link href="/libs/material-icons/material-icons.css" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="/libs/materialize/materialize.min.css" media="screen,projection"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="/popup/popup.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- NavBar -->
+        <nav>
+            <div class="nav-wrapper">
+                <a class="brand-logo center">FoxyPGP</a>
+            </div>
+        </nav>
+
+        <!-- Keys Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>E-mail</th>
+                    <th>Type</th>
+                    <th>ID</th>
+                </tr>
+            </thead>
+            <tbody id="keys-tbody"></tbody>
+        </table>
+
+        <!-- Floating Action Button -->
+        <div class="fixed-action-btn">
+            <a class="btn-floating btn-large">
+                <i class="large material-icons">menu</i>
+            </a>
+            <ul>
+                <li><a class="btn-floating blue" href="/popup/settings.html"><i class="material-icons tooltipped" data-position="left" data-tooltip="Settings">settings</i></a></li>
+                <li><a class="btn-floating blue" href="/popup/editor.html"><i class="material-icons tooltipped" data-position="left" data-tooltip="Open Editor">description</i></a></li>
+                <li><a class="btn-floating blue" href="/popup/add.html"><i class="material-icons tooltipped" data-position="left" data-tooltip="Add a new key">add</i></a></li>
+            </ul>
+        </div>
+
+        <script src="/libs/materialize/materialize.min.js"></script>
+        <script type="module" src="/popup/manager.js"></script>
+    </body>
+</html>

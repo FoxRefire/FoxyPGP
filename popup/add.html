@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <link href="/libs/material-icons/material-icons.css" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="/libs/materialize/materialize.min.css" media="screen,projection"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="/popup/popup.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- NavBar -->
+        <nav>
+            <div class="nav-wrapper">
+                <a class="brand-logo center">Add Keys</a>
+                <a href="/popup/manager.html"><i class="material-icons back_button">arrow_back</i></a>
+            </div>
+        </nav>
+
+        <!-- Menu Tabs -->
+        <div class="col s12">
+            <ul class="tabs">
+            <li class="tab col s3"><a class="active" href="#generate">Generate Key Pair</a></li>
+            <li class="tab col s3"><a href="#import-priv">Import Key Pair</a></li>
+            <li class="tab col s3"><a href="#import-pub">Import Public Key</a></li>
+            </ul>
+        </div>
+
+        <!-- Generate Key Pair -->
+        <form id="generate">
+            <div class="input-field">
+                <input id="name" type="text" placeholder="Alice" maxlength="30" required>
+                <label for="name">Name*</label>
+            </div>
+            <div class="input-field">
+                <input id="email" type="email" placeholder="alice@carolmail.net" maxlength="30">
+                <label for="email">Email</label>
+            </div>
+            <div class="input-field">
+                <input id="passphrase" type="password" placeholder="*********" maxlength="30" required>
+                <label for="passphrase">Passphrase*</label>
+            </div>
+            <div class="input-field">
+                <input id="passphrase-confirm" type="password" placeholder="*********" maxlength="30" required>
+                <label for="passphrase-confirm">Passphrase (confirm)*</label>
+            </div><br>
+            <input class="btn" type="submit" value="Generate"/>
+        </form>
+
+        <!-- Import Key Pair -->
+        <form id="import-priv">
+            <div class="input-field">
+                <textarea id="privKeyArea" class="key-textarea materialize-textarea" placeholder="-----BEGIN PGP PRIVATE KEY BLOCK-----" required></textarea>
+                <label for="privKeyArea">Private key</label>
+                <a tabindex="0" class="btn filled icon-left" id="privKeySelect"><i class="material-icons">upload_file</i>Import from file</a>
+            </div><br>
+            <input class="btn" type="submit" value="Import"/>
+        </form>
+
+        <!-- Import Public Key -->
+        <form id="import-pub">
+            <div class="input-field">
+                <textarea id="pubKeyArea" class="key-textarea materialize-textarea" placeholder="-----BEGIN PGP PUBLIC KEY BLOCK-----" required></textarea>
+                <label for="pubKeyArea">Public key</label>
+                <a tabindex="0" class="btn filled icon-left" id="pubKeySelect"><i class="material-icons">upload_file</i>Import from file</a>
+            </div><br>
+            <input class="btn" type="submit" value="Import"/>
+        </form>
+
+        <script src="/libs/materialize/materialize.min.js"></script>
+        <script type="module" src="/popup/add.js"></script>
+    </body>
+</html>

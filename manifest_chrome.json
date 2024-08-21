@@ -1,0 +1,24 @@
+{
+    "name": "FoxyPGP",
+    "description": "Chrome/Firefox extension for add Traditional Chinese on DeepL",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "128": "icon.png"
+    },
+    "action": {
+       "default_title": "FoxyPGP"
+    },
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "content_scripts": [
+        {
+          "js": ["content.js"],
+          "matches": ["<all_urls>"]
+        }
+    ],
+    "permissions": ["storage"],
+    "host_permissions": ["<all_urls>"]
+}
