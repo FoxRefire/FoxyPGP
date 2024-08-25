@@ -1,4 +1,5 @@
 import "/libs/jquery.min.js"
+import downloadTextData from "/utils/downloadTextData.js"
 
 function openFileChooser(){
     let input = document.createElement('input');
@@ -13,16 +14,7 @@ function openFileChooser(){
 
 $("#backupDB")[0].addEventListener("click", async () => {
     let data = await chrome.storage.local.get(null)
-    
-    let blob = new Blob([JSON.stringify(data, null, "\t")], {type: "text/plain"});
-    let blobLink = URL.createObjectURL(blob);
-    let a = document.createElement('a');
-    a.download = `FoxyPGP_backup_${Date.now()}.json`;
-    a.href = blobLink
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(blobLink);
+    downloadTextData(JSON.stringify(data, null, "\t"), `FoxyPGP_backup_${Date.now()}.json`)
 })
 $("#restoreDB")[0].addEventListener("click", async () => {
     let data = JSON.parse(await openFileChooser())

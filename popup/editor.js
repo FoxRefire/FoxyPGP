@@ -1,6 +1,7 @@
 import "/libs/jquery.min.js"
 import * as openpgp from "/libs/openpgp.min.mjs"
 import getKeysAsArray from "/utils/getKeysAsArray.js"
+import loadKeyAsObject from "/utils/loadKeyAsObject.js"
 
 async function selectKey(type){
     $("#editor-block")[0].style.display = "none"
@@ -21,19 +22,6 @@ async function selectKey(type){
             resolve(e.target.id)
         })
     })
-}
-
-async function loadKeyAsObject(id, type){
-    let keys = await chrome.storage.local.get("keys").then(v => v.keys)
-    if(type == "public"){
-        return await openpgp.readKey({armoredKey:  keys[id][0]})
-    } else if(type=="private"){
-        let passphrase = prompt("Enter a passphrase of your private key")
-        return await openpgp.decryptKey({
-            privateKey: await openpgp.readPrivateKey({armoredKey: keys[id][1]}),
-            passphrase
-        })
-    }
 }
 
 $("#sign")[0].addEventListener("click", async () => {

@@ -16,7 +16,6 @@ export default async function(type){
         let algorithm = Object.values(key.getAlgorithmInfo())
         let fingerprint = key.getFingerprint()
         data.push({name, email, type, creationTime, expirationTime, id, algorithm, fingerprint})
-        console.log(key)
     }
     return data
 }
