@@ -1,5 +1,6 @@
 import "/libs/jquery.min.js"
 import * as openpgp from "/libs/openpgp.min.mjs"
+import getKeysAsArray from "/utils/getKeysAsArray.js"
 
 async function selectKey(type){
     $("#editor-block")[0].style.display = "none"
@@ -20,23 +21,6 @@ async function selectKey(type){
             resolve(e.target.id)
         })
     })
-}
-
-async function getKeysAsArray(type){
-    let keys = await chrome.storage.local.get("keys").then(v => v.keys)
-    let readKey
-    let _type = type
-    let data = []
-    for(let [id, k] of Object.entries(keys)){
-        if(_type == "private" && k.length != 2) continue
-        
-        let key = await openpgp.readKey({armoredKey: k[0]})
-        let name = key.users[0].userID.name ? key.users[0].userID.name : key.users[0].userID.userID
-        let email = key.users[0].userID.email ? key.users[0].userID.email : "null"
-        let type = k.length === 2 ? "pub+priv" : "pub"
-        data.push({name, email, type, id})
-    }
-    return data
 }
 
 async function loadKeyAsObject(id, type){
