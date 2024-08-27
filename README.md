@@ -4,6 +4,8 @@
   <div align="center">PGP integration for web browsers</div>
 </p>
 
+[![Firefox](https://extensionworkshop.com/assets/img/documentation/publish/get-the-addon-178x60px.dad84b42.png)](https://addons.mozilla.org/ja/firefox/addon/foxypgp/)
+
 ## Third-party libraries/Referenced codes
 * [Kalai Oval Interface Icons](https://www.svgrepo.com/svg/502785/password)([Public Domain](https://www.svgrepo.com/page/licensing/#PD)) //Extension Icon
 * [jquery](https://github.com/jquery/jquery)([MIT](https://github.com/jquery/jquery/blob/main/LICENSE.txt)) //Simplify code
