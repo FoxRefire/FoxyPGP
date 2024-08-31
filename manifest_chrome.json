@@ -19,6 +19,5 @@
           "matches": ["<all_urls>"]
         }
     ],
-    "permissions": ["storage", "contextMenus"],
-    "host_permissions": ["<all_urls>"]
+    "permissions": ["storage", "unlimitedStorage", "contextMenus"]
 }
