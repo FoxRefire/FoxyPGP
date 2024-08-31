@@ -51,15 +51,14 @@ function openEditor(){
 async function changePass(){
     let id = (new URL(location.href)).searchParams.get("id")
     let key = await loadKeyAsObject(id, "private")
+    let [newPass, newPassConfirm] = await modal.newPassphrase()
 
-    let passphrase = prompt("Enter new passphrase")
-    let confirmPassphrase = prompt("Enter new password again")
-    if(passphrase != confirmPassphrase){
+    if(newPass != newPassConfirm){
         modal.alert("Error", "Passphrase wasn't match")
         return
     }
 
-    let reEncryptedKey = await openpgp.encryptKey({privateKey:key, passphrase:passphrase})
+    let reEncryptedKey = await openpgp.encryptKey({privateKey:key, passphrase:newPass})
     let current = await chrome.storage.local.get("keys").then(v => v.keys)
     current[id] = [reEncryptedKey.toPublic().armor(), reEncryptedKey.armor()]
     await chrome.storage.local.set({keys: current})
