@@ -4,11 +4,24 @@ import getKeysAsArray from "/utils/getKeysAsArray.js"
 import loadKeyAsObject from "/utils/loadKeyAsObject.js"
 import modal from "/utils/modal.js";
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     $("#editorText")[0].value = (new URL(location.href)).searchParams.get("text")
+    window.id = (new URL(location.href)).searchParams.get("id")
+    window.id && hideUnnecessaryElement(window.id)
 });
 
+async function hideUnnecessaryElement(id){
+    let keys = await chrome.storage.local.get("keys").then(v => v.keys[window.id])
+    if(keys.length != 2){
+        $("#sign")[0].style.display = "none"
+        $("#decrypt")[0].style.display = "none"
+    }
+}
+
 async function selectKey(type){
+    if(window.id){
+        return window.id
+    }
     $("#editor-block")[0].style.display = "none"
     $("#selector-block")[0].style.display = null
     $("#select-key")[0].innerHTML = ""
