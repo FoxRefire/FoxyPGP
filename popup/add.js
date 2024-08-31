@@ -1,5 +1,6 @@
 import "/libs/jquery.min.js"
 import * as openpgp from "/libs/openpgp.min.mjs"
+import modal from "/utils/modal.js";
 
 document.addEventListener('DOMContentLoaded', () => {
     M.Tabs.init($(".tabs"), null);
@@ -45,7 +46,7 @@ $("#generate")[0].addEventListener("submit", async e => {
         passphrase: $("#passphrase")[0].value
     })
     addKey([publicKey, privateKey])
-    alert("Key Pair has created")
+    await modal.alert("Succeed", "Key Pair has created")
     location.href = "/popup/manager.html"
 })
 
@@ -60,7 +61,7 @@ $("#import-priv")[0].addEventListener("submit", async e => {
     let armoredPrivateKey = loadedPrivateKey.armor()
 
     addKey([armoredPublicKey, armoredPrivateKey])
-    alert("Key Pair has imported")
+    await modal.alert("Succeed", "Key Pair has imported")
     location.href = "/popup/manager.html"
 })
 
@@ -73,6 +74,6 @@ $("#import-pub")[0].addEventListener("submit", async e => {
     let armoredPublicKey = await openpgp.readKey({armoredKey: $("#pubKeyArea")[0].value}).then(k => k.armor())
 
     addKey([armoredPublicKey])
-    alert("Public Key has imported")
+    await modal.alert("Succeed", "Public Key has imported")
     location.href = "/popup/manager.html"
 })

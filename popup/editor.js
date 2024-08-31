@@ -2,6 +2,7 @@ import "/libs/jquery.min.js"
 import * as openpgp from "/libs/openpgp.min.mjs"
 import getKeysAsArray from "/utils/getKeysAsArray.js"
 import loadKeyAsObject from "/utils/loadKeyAsObject.js"
+import modal from "/utils/modal.js";
 
 async function selectKey(type){
     $("#editor-block")[0].style.display = "none"
@@ -44,9 +45,9 @@ $("#verify")[0].addEventListener("click", async () => {
     })
 
     try{
-        await result.signatures[0].verified ? alert("OK: Signature verified") : Error()
+        await result.signatures[0].verified ? modal.alert("OK", "Signature verified") : Error()
     } catch {
-        alert("Error: Signature mismatched")
+        modal.alert("Error", "Signature mismatched")
     }
 })
 
@@ -64,8 +65,12 @@ $("#decrypt")[0].addEventListener("click", async () => {
     let selectedID = await selectKey("private")
     let key = await loadKeyAsObject(selectedID, "private")
 
-    $("#editorText")[0].value = await openpgp.decrypt({
-        message: await openpgp.readMessage({armoredMessage: $("#editorText")[0].value}),
-        decryptionKeys: key
-    }).then(obj => obj.data)
+    try {
+        $("#editorText")[0].value = await openpgp.decrypt({
+            message: await openpgp.readMessage({armoredMessage: $("#editorText")[0].value}),
+            decryptionKeys: key
+        }).then(obj => obj.data)
+    } catch {
+        modal.alert("Error", "Decryption failed")
+    }
 })

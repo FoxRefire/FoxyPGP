@@ -3,6 +3,7 @@ import * as openpgp from "/libs/openpgp.min.mjs"
 import getKeysAsArray from "/utils/getKeysAsArray.js"
 import loadKeyAsObject from "/utils/loadKeyAsObject.js"
 import downloadTextData from "/utils/downloadTextData.js"
+import modal from "/utils/modal.js";
 
 
 document.addEventListener('DOMContentLoaded', async () => {
@@ -54,7 +55,7 @@ async function changePass(){
     let passphrase = prompt("Enter new passphrase")
     let confirmPassphrase = prompt("Enter new password again")
     if(passphrase != confirmPassphrase){
-        alert("Passphrase wasn't match")
+        modal.alert("Error", "Passphrase wasn't match")
         return
     }
 
@@ -65,14 +66,12 @@ async function changePass(){
 }
 
 async function removeKey(){
-    let confirmBool = confirm("Are you sure you want to remove this key? Unless you have a backup, you will never be able to restore it again.")
-    if(confirmBool){
-        let id = (new URL(location.href)).searchParams.get("id")
-        let current = await chrome.storage.local.get("keys").then(v => v.keys)
-        delete current[id]
-        await chrome.storage.local.set({keys: current})
-        location.href = "/popup/manager.html"
-    }
+    await modal.confirm("Confirm", "Are you sure you want to remove this key? Unless you have a backup, you will never be able to restore it again.")
+    let id = (new URL(location.href)).searchParams.get("id")
+    let current = await chrome.storage.local.get("keys").then(v => v.keys)
+    delete current[id]
+    await chrome.storage.local.set({keys: current})
+    location.href = "/popup/manager.html"
 }
 
 async function exportPub() {
