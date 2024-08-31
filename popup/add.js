@@ -1,21 +1,11 @@
 import "/libs/jquery.min.js"
 import * as openpgp from "/libs/openpgp.min.mjs"
 import modal from "/utils/modal.js";
+import getTextFromFileChooser from "/utils/getTextFromFileChooser.js";
 
 document.addEventListener('DOMContentLoaded', () => {
     M.Tabs.init($(".tabs"), null);
 });
-
-function openFileChooser(){
-    let input = document.createElement('input');
-    input.type = "file"
-    input.click()
-    return new Promise(resolve => {
-        input.addEventListener("change", async () => {
-            resolve(await input.files[0].text())
-        })
-    })
-}
 
 async function addKey(keys){
     let current = await chrome.storage.local.get("keys").then(v => v.keys)
@@ -52,7 +42,7 @@ $("#generate")[0].addEventListener("submit", async e => {
 
 //Import Key Pair
 $("#privKeySelect")[0].addEventListener("click", async e => {
-    $("#privKeyArea")[0].value = await openFileChooser()
+    $("#privKeyArea")[0].value = await getTextFromFileChooser()
 })
 $("#import-priv")[0].addEventListener("submit", async e => {
     e.preventDefault()
@@ -67,7 +57,7 @@ $("#import-priv")[0].addEventListener("submit", async e => {
 
 //Import Public Key
 $("#pubKeySelect")[0].addEventListener("click", async () => {
-    $("#pubKeyArea")[0].value = await openFileChooser()
+    $("#pubKeyArea")[0].value = await getTextFromFileChooser()
 })
 $("#import-pub")[0].addEventListener("submit", async e => {
     e.preventDefault()
