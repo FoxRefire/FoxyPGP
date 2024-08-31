@@ -4,6 +4,10 @@ import getKeysAsArray from "/utils/getKeysAsArray.js"
 import loadKeyAsObject from "/utils/loadKeyAsObject.js"
 import modal from "/utils/modal.js";
 
+document.addEventListener('DOMContentLoaded', () => {
+    $("#editorText")[0].value = (new URL(location.href)).searchParams.get("text")
+});
+
 async function selectKey(type){
     $("#editor-block")[0].style.display = "none"
     $("#selector-block")[0].style.display = null
