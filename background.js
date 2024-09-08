@@ -7,6 +7,10 @@ if(chrome.windows){
             height: 570
         });
     });
+} else {
+    chrome.action.onClicked.addListener(() => {
+        chrome.tabs.create({url: "popup/manager.html"})
+    })
 }
 
 function createMenu(){
