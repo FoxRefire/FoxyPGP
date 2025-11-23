@@ -1,0 +1,311 @@
+{
+  "appName": {
+    "message": "FoxyPGP",
+    "description": "Название приложения"
+  },
+  "appDescription": {
+    "message": "Интеграция PGP для веб-браузеров!",
+    "description": "Описание приложения"
+  },
+  "name": {
+    "message": "Имя",
+    "description": "Метка Имя"
+  },
+  "email": {
+    "message": "Электронная почта",
+    "description": "Метка Электронная почта"
+  },
+  "type": {
+    "message": "Тип",
+    "description": "Метка Тип"
+  },
+  "id": {
+    "message": "ID",
+    "description": "Метка ID"
+  },
+  "settings": {
+    "message": "Настройки",
+    "description": "Настройки"
+  },
+  "openEditor": {
+    "message": "Открыть редактор",
+    "description": "Открыть редактор"
+  },
+  "addNewKey": {
+    "message": "Добавить новый ключ",
+    "description": "Добавить новый ключ"
+  },
+  "settingsTitle": {
+    "message": "Настройки",
+    "description": "Заголовок страницы Настройки"
+  },
+  "webpage": {
+    "message": "Веб-страница",
+    "description": "Раздел Веб-страница"
+  },
+  "showContextMenu": {
+    "message": "Показать контекстное меню",
+    "description": "Опция Показать контекстное меню"
+  },
+  "database": {
+    "message": "База данных",
+    "description": "Раздел База данных"
+  },
+  "backupDatabase": {
+    "message": "Резервное копирование базы данных",
+    "description": "Кнопка Резервное копирование базы данных"
+  },
+  "restoreBackup": {
+    "message": "Восстановить резервную копию",
+    "description": "Кнопка Восстановить резервную копию"
+  },
+  "clearDatabase": {
+    "message": "Очистить базу данных",
+    "description": "Кнопка Очистить базу данных"
+  },
+  "about": {
+    "message": "О программе",
+    "description": "Раздел О программе"
+  },
+  "app": {
+    "message": "Приложение",
+    "description": "Метка Приложение"
+  },
+  "version": {
+    "message": "Версия",
+    "description": "Метка Версия"
+  },
+  "author": {
+    "message": "Автор",
+    "description": "Метка Автор"
+  },
+  "sourceCode": {
+    "message": "Исходный код",
+    "description": "Метка Исходный код"
+  },
+  "license": {
+    "message": "Лицензия",
+    "description": "Метка Лицензия"
+  },
+  "addKeys": {
+    "message": "Добавить ключи",
+    "description": "Заголовок страницы Добавить ключи"
+  },
+  "generateKeyPair": {
+    "message": "Создать пару ключей",
+    "description": "Вкладка Создать пару ключей"
+  },
+  "importKeyPair": {
+    "message": "Импортировать пару ключей",
+    "description": "Вкладка Импортировать пару ключей"
+  },
+  "importPublicKey": {
+    "message": "Импортировать открытый ключ",
+    "description": "Вкладка Импортировать открытый ключ"
+  },
+  "namePlaceholder": {
+    "message": "Алиса",
+    "description": "Заполнитель Имя"
+  },
+  "nameLabel": {
+    "message": "Имя*",
+    "description": "Метка Имя со звездочкой"
+  },
+  "emailPlaceholder": {
+    "message": "alice@example.ru",
+    "description": "Заполнитель Электронная почта"
+  },
+  "emailLabel": {
+    "message": "Электронная почта",
+    "description": "Метка Электронная почта"
+  },
+  "passphrasePlaceholder": {
+    "message": "*********",
+    "description": "Заполнитель Парольная фраза"
+  },
+  "passphraseLabel": {
+    "message": "Парольная фраза*",
+    "description": "Метка Парольная фраза"
+  },
+  "passphraseConfirmLabel": {
+    "message": "Парольная фраза (подтверждение)*",
+    "description": "Метка Подтверждение парольной фразы"
+  },
+  "generate": {
+    "message": "Создать",
+    "description": "Кнопка Создать"
+  },
+  "privateKey": {
+    "message": "Закрытый ключ",
+    "description": "Метка Закрытый ключ"
+  },
+  "publicKey": {
+    "message": "Открытый ключ",
+    "description": "Метка Открытый ключ"
+  },
+  "importFromFile": {
+    "message": "Импортировать из файла",
+    "description": "Кнопка Импортировать из файла"
+  },
+  "import": {
+    "message": "Импортировать",
+    "description": "Кнопка Импортировать"
+  },
+  "editor": {
+    "message": "Редактор",
+    "description": "Заголовок страницы Редактор"
+  },
+  "content": {
+    "message": "Содержимое",
+    "description": "Метка Содержимое"
+  },
+  "sign": {
+    "message": "Подписать",
+    "description": "Кнопка Подписать"
+  },
+  "verify": {
+    "message": "Проверить",
+    "description": "Кнопка Проверить"
+  },
+  "encrypt": {
+    "message": "Зашифровать",
+    "description": "Кнопка Зашифровать"
+  },
+  "decrypt": {
+    "message": "Расшифровать",
+    "description": "Кнопка Расшифровать"
+  },
+  "keyDetails": {
+    "message": "Детали ключа",
+    "description": "Заголовок страницы Детали ключа"
+  },
+  "openEditorButton": {
+    "message": "Открыть редактор",
+    "description": "Кнопка Открыть редактор"
+  },
+  "changePassword": {
+    "message": "Изменить пароль",
+    "description": "Кнопка Изменить пароль"
+  },
+  "removeKey": {
+    "message": "Удалить этот ключ",
+    "description": "Кнопка Удалить этот ключ"
+  },
+  "exportPublicKey": {
+    "message": "Экспортировать открытый ключ",
+    "description": "Кнопка Экспортировать открытый ключ"
+  },
+  "exportPrivateKey": {
+    "message": "Экспортировать закрытый ключ",
+    "description": "Кнопка Экспортировать закрытый ключ"
+  },
+  "creationTime": {
+    "message": "Время создания",
+    "description": "Метка Время создания"
+  },
+  "expirationTime": {
+    "message": "Время истечения",
+    "description": "Метка Время истечения"
+  },
+  "algorithm": {
+    "message": "Алгоритм",
+    "description": "Метка Алгоритм"
+  },
+  "fingerprint": {
+    "message": "Отпечаток",
+    "description": "Метка Отпечаток"
+  },
+  "ok": {
+    "message": "ОК",
+    "description": "Кнопка ОК"
+  },
+  "yes": {
+    "message": "Да",
+    "description": "Кнопка Да"
+  },
+  "no": {
+    "message": "Нет",
+    "description": "Кнопка Нет"
+  },
+  "cancel": {
+    "message": "Отмена",
+    "description": "Кнопка Отмена"
+  },
+  "confirm": {
+    "message": "Подтвердить",
+    "description": "Заголовок Подтвердить"
+  },
+  "succeed": {
+    "message": "Успешно",
+    "description": "Заголовок Успешно"
+  },
+  "error": {
+    "message": "Ошибка",
+    "description": "Заголовок Ошибка"
+  },
+  "keyPairCreated": {
+    "message": "Пара ключей создана",
+    "description": "Сообщение Пара ключей создана"
+  },
+  "keyPairImported": {
+    "message": "Пара ключей импортирована",
+    "description": "Сообщение Пара ключей импортирована"
+  },
+  "publicKeyImported": {
+    "message": "Открытый ключ импортирован",
+    "description": "Сообщение Открытый ключ импортирован"
+  },
+  "signatureVerified": {
+    "message": "Подпись проверена",
+    "description": "Сообщение Подпись проверена"
+  },
+  "signatureMismatched": {
+    "message": "Подпись не совпадает",
+    "description": "Сообщение Подпись не совпадает"
+  },
+  "decryptionFailed": {
+    "message": "Расшифровка не удалась",
+    "description": "Сообщение Расшифровка не удалась"
+  },
+  "passphraseNotMatch": {
+    "message": "Парольная фраза не совпадает",
+    "description": "Сообщение Парольная фраза не совпадает"
+  },
+  "confirmRestoreBackup": {
+    "message": "Вы уверены, что хотите восстановить резервную копию? Это перезапишет исходные данные.",
+    "description": "Сообщение Подтвердить восстановление резервной копии"
+  },
+  "confirmClearDatabase": {
+    "message": "Вы уверены, что хотите удалить базу данных? Без резервной копии вы больше не сможете её восстановить.",
+    "description": "Сообщение Подтвердить очистку базы данных"
+  },
+  "confirmRemoveKey": {
+    "message": "Вы уверены, что хотите удалить этот ключ? Без резервной копии вы больше не сможете его восстановить.",
+    "description": "Сообщение Подтвердить удаление ключа"
+  },
+  "enterPassphrase": {
+    "message": "Введите парольную фразу",
+    "description": "Заголовок Введите парольную фразу"
+  },
+  "enterPassphraseMessage": {
+    "message": "Введите парольную фразу вашего закрытого ключа",
+    "description": "Сообщение Введите парольную фразу"
+  },
+  "setNewPassphrase": {
+    "message": "Установить новую парольную фразу",
+    "description": "Заголовок Установить новую парольную фразу"
+  },
+  "newPassphrase": {
+    "message": "Новая парольная фраза",
+    "description": "Метка Новая парольная фраза"
+  },
+  "confirmNewPassphrase": {
+    "message": "Подтвердить новую парольную фразу",
+    "description": "Метка Подтвердить новую парольную фразу"
+  },
+  "openAsFoxyPGPEditor": {
+    "message": "Открыть как редактор FoxyPGP",
+    "description": "Элемент контекстного меню"
+  }
+}
+

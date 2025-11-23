@@ -3,8 +3,10 @@ import * as openpgp from "/libs/openpgp.min.mjs"
 import getKeysAsArray from "/utils/getKeysAsArray.js"
 import loadKeyAsObject from "/utils/loadKeyAsObject.js"
 import modal from "/utils/modal.js";
+import { translateDocument, t } from "/utils/i18n.js";
 
 document.addEventListener('DOMContentLoaded', async () => {
+    translateDocument();
     $("#editorText")[0].value = (new URL(location.href)).searchParams.get("text")
     window.id = (new URL(location.href)).searchParams.get("id")
     window.id && hideUnnecessaryElement(window.id)
@@ -62,9 +64,9 @@ $("#verify")[0].addEventListener("click", async () => {
     })
 
     try{
-        await result.signatures[0].verified ? modal.alert("OK", "Signature verified") : Error()
+        await result.signatures[0].verified ? modal.alert(t("ok"), t("signatureVerified")) : Error()
     } catch {
-        modal.alert("Error", "Signature mismatched")
+        modal.alert(t("error"), t("signatureMismatched"))
     }
 })
 
@@ -88,6 +90,6 @@ $("#decrypt")[0].addEventListener("click", async () => {
             decryptionKeys: key
         }).then(obj => obj.data)
     } catch {
-        modal.alert("Error", "Decryption failed")
+        modal.alert(t("error"), t("decryptionFailed"))
     }
 })

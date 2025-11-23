@@ -1,0 +1,311 @@
+{
+  "appName": {
+    "message": "FoxyPGP",
+    "description": "应用程序名称"
+  },
+  "appDescription": {
+    "message": "适用于网页浏览器的PGP集成！",
+    "description": "应用程序描述"
+  },
+  "name": {
+    "message": "姓名",
+    "description": "姓名称签"
+  },
+  "email": {
+    "message": "电子邮件",
+    "description": "电子邮件标签"
+  },
+  "type": {
+    "message": "类型",
+    "description": "类型标签"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID标签"
+  },
+  "settings": {
+    "message": "设置",
+    "description": "设置"
+  },
+  "openEditor": {
+    "message": "打开编辑器",
+    "description": "打开编辑器"
+  },
+  "addNewKey": {
+    "message": "添加新密钥",
+    "description": "添加新密钥"
+  },
+  "settingsTitle": {
+    "message": "设置",
+    "description": "设置页面标题"
+  },
+  "webpage": {
+    "message": "网页",
+    "description": "网页部分"
+  },
+  "showContextMenu": {
+    "message": "显示上下文菜单",
+    "description": "显示上下文菜单选项"
+  },
+  "database": {
+    "message": "数据库",
+    "description": "数据库部分"
+  },
+  "backupDatabase": {
+    "message": "备份数据库",
+    "description": "备份数据库按钮"
+  },
+  "restoreBackup": {
+    "message": "恢复备份",
+    "description": "恢复备份按钮"
+  },
+  "clearDatabase": {
+    "message": "清除数据库",
+    "description": "清除数据库按钮"
+  },
+  "about": {
+    "message": "关于",
+    "description": "关于部分"
+  },
+  "app": {
+    "message": "应用",
+    "description": "应用标签"
+  },
+  "version": {
+    "message": "版本",
+    "description": "版本标签"
+  },
+  "author": {
+    "message": "作者",
+    "description": "作者标签"
+  },
+  "sourceCode": {
+    "message": "源代码",
+    "description": "源代码标签"
+  },
+  "license": {
+    "message": "许可证",
+    "description": "许可证标签"
+  },
+  "addKeys": {
+    "message": "添加密钥",
+    "description": "添加密钥页面标题"
+  },
+  "generateKeyPair": {
+    "message": "生成密钥对",
+    "description": "生成密钥对标签"
+  },
+  "importKeyPair": {
+    "message": "导入密钥对",
+    "description": "导入密钥对标签"
+  },
+  "importPublicKey": {
+    "message": "导入公钥",
+    "description": "导入公钥标签"
+  },
+  "namePlaceholder": {
+    "message": "爱丽丝",
+    "description": "姓名占位符"
+  },
+  "nameLabel": {
+    "message": "姓名*",
+    "description": "带星号的姓名称签"
+  },
+  "emailPlaceholder": {
+    "message": "alice@example.com",
+    "description": "电子邮件占位符"
+  },
+  "emailLabel": {
+    "message": "电子邮件",
+    "description": "电子邮件标签"
+  },
+  "passphrasePlaceholder": {
+    "message": "*********",
+    "description": "密码短语占位符"
+  },
+  "passphraseLabel": {
+    "message": "密码短语*",
+    "description": "密码短语标签"
+  },
+  "passphraseConfirmLabel": {
+    "message": "密码短语（确认）*",
+    "description": "密码短语确认标签"
+  },
+  "generate": {
+    "message": "生成",
+    "description": "生成按钮"
+  },
+  "privateKey": {
+    "message": "私钥",
+    "description": "私钥标签"
+  },
+  "publicKey": {
+    "message": "公钥",
+    "description": "公钥标签"
+  },
+  "importFromFile": {
+    "message": "从文件导入",
+    "description": "从文件导入按钮"
+  },
+  "import": {
+    "message": "导入",
+    "description": "导入按钮"
+  },
+  "editor": {
+    "message": "编辑器",
+    "description": "编辑器页面标题"
+  },
+  "content": {
+    "message": "内容",
+    "description": "内容标签"
+  },
+  "sign": {
+    "message": "签名",
+    "description": "签名按钮"
+  },
+  "verify": {
+    "message": "验证",
+    "description": "验证按钮"
+  },
+  "encrypt": {
+    "message": "加密",
+    "description": "加密按钮"
+  },
+  "decrypt": {
+    "message": "解密",
+    "description": "解密按钮"
+  },
+  "keyDetails": {
+    "message": "密钥详情",
+    "description": "密钥详情页面标题"
+  },
+  "openEditorButton": {
+    "message": "打开编辑器",
+    "description": "打开编辑器按钮"
+  },
+  "changePassword": {
+    "message": "更改密码",
+    "description": "更改密码按钮"
+  },
+  "removeKey": {
+    "message": "删除此密钥",
+    "description": "删除此密钥按钮"
+  },
+  "exportPublicKey": {
+    "message": "导出公钥",
+    "description": "导出公钥按钮"
+  },
+  "exportPrivateKey": {
+    "message": "导出私钥",
+    "description": "导出私钥按钮"
+  },
+  "creationTime": {
+    "message": "创建时间",
+    "description": "创建时间标签"
+  },
+  "expirationTime": {
+    "message": "过期时间",
+    "description": "过期时间标签"
+  },
+  "algorithm": {
+    "message": "算法",
+    "description": "算法标签"
+  },
+  "fingerprint": {
+    "message": "指纹",
+    "description": "指纹标签"
+  },
+  "ok": {
+    "message": "确定",
+    "description": "确定按钮"
+  },
+  "yes": {
+    "message": "是",
+    "description": "是按钮"
+  },
+  "no": {
+    "message": "否",
+    "description": "否按钮"
+  },
+  "cancel": {
+    "message": "取消",
+    "description": "取消按钮"
+  },
+  "confirm": {
+    "message": "确认",
+    "description": "确认标题"
+  },
+  "succeed": {
+    "message": "成功",
+    "description": "成功标题"
+  },
+  "error": {
+    "message": "错误",
+    "description": "错误标题"
+  },
+  "keyPairCreated": {
+    "message": "密钥对已创建",
+    "description": "密钥对已创建消息"
+  },
+  "keyPairImported": {
+    "message": "密钥对已导入",
+    "description": "密钥对已导入消息"
+  },
+  "publicKeyImported": {
+    "message": "公钥已导入",
+    "description": "公钥已导入消息"
+  },
+  "signatureVerified": {
+    "message": "签名已验证",
+    "description": "签名已验证消息"
+  },
+  "signatureMismatched": {
+    "message": "签名不匹配",
+    "description": "签名不匹配消息"
+  },
+  "decryptionFailed": {
+    "message": "解密失败",
+    "description": "解密失败消息"
+  },
+  "passphraseNotMatch": {
+    "message": "密码短语不匹配",
+    "description": "密码短语不匹配消息"
+  },
+  "confirmRestoreBackup": {
+    "message": "您确定要恢复备份吗？这将覆盖原始数据。",
+    "description": "确认恢复备份消息"
+  },
+  "confirmClearDatabase": {
+    "message": "您确定要删除数据库吗？除非您有备份，否则将永远无法再次恢复。",
+    "description": "确认清除数据库消息"
+  },
+  "confirmRemoveKey": {
+    "message": "您确定要删除此密钥吗？除非您有备份，否则将永远无法再次恢复。",
+    "description": "确认删除密钥消息"
+  },
+  "enterPassphrase": {
+    "message": "输入密码短语",
+    "description": "输入密码短语标题"
+  },
+  "enterPassphraseMessage": {
+    "message": "请输入您的私钥密码短语",
+    "description": "输入密码短语消息"
+  },
+  "setNewPassphrase": {
+    "message": "设置新密码短语",
+    "description": "设置新密码短语标题"
+  },
+  "newPassphrase": {
+    "message": "新密码短语",
+    "description": "新密码短语标签"
+  },
+  "confirmNewPassphrase": {
+    "message": "确认新密码短语",
+    "description": "确认新密码短语标签"
+  },
+  "openAsFoxyPGPEditor": {
+    "message": "作为FoxyPGP编辑器打开",
+    "description": "上下文菜单项"
+  }
+}
+

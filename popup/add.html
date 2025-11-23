@@ -9,7 +9,7 @@
         <!-- NavBar -->
         <nav>
             <div class="nav-wrapper">
-                <a class="brand-logo center">Add Keys</a>
+                <a class="brand-logo center" data-i18n="addKeys">Add Keys</a>
                 <a href="/popup/manager.html"><i class="material-icons back_button">arrow_back</i></a>
             </div>
         </nav>
@@ -17,51 +17,51 @@
         <!-- Menu Tabs -->
         <div class="col s12">
             <ul class="tabs">
-            <li class="tab col s3"><a class="active" href="#generate">Generate Key Pair</a></li>
-            <li class="tab col s3"><a href="#import-priv">Import Key Pair</a></li>
-            <li class="tab col s3"><a href="#import-pub">Import Public Key</a></li>
+            <li class="tab col s3"><a class="active" href="#generate" data-i18n="generateKeyPair">Generate Key Pair</a></li>
+            <li class="tab col s3"><a href="#import-priv" data-i18n="importKeyPair">Import Key Pair</a></li>
+            <li class="tab col s3"><a href="#import-pub" data-i18n="importPublicKey">Import Public Key</a></li>
             </ul>
         </div>
 
         <!-- Generate Key Pair -->
         <form id="generate">
             <div class="input-field">
-                <input id="name" type="text" placeholder="Alice" maxlength="30" required>
-                <label for="name">Name*</label>
+                <input id="name" type="text" data-i18n-placeholder="namePlaceholder" placeholder="Alice" maxlength="30" required>
+                <label for="name" data-i18n="nameLabel">Name*</label>
             </div>
             <div class="input-field">
-                <input id="email" type="email" placeholder="alice@carolmail.net" maxlength="30">
-                <label for="email">Email</label>
+                <input id="email" type="email" data-i18n-placeholder="emailPlaceholder" placeholder="alice@carolmail.net" maxlength="30">
+                <label for="email" data-i18n="emailLabel">Email</label>
             </div>
             <div class="input-field">
-                <input id="passphrase" type="password" placeholder="*********" maxlength="30" required>
-                <label for="passphrase">Passphrase*</label>
+                <input id="passphrase" type="password" data-i18n-placeholder="passphrasePlaceholder" placeholder="*********" maxlength="30" required>
+                <label for="passphrase" data-i18n="passphraseLabel">Passphrase*</label>
             </div>
             <div class="input-field">
-                <input id="passphrase-confirm" type="password" placeholder="*********" maxlength="30" required>
-                <label for="passphrase-confirm">Passphrase (confirm)*</label>
+                <input id="passphrase-confirm" type="password" data-i18n-placeholder="passphrasePlaceholder" placeholder="*********" maxlength="30" required>
+                <label for="passphrase-confirm" data-i18n="passphraseConfirmLabel">Passphrase (confirm)*</label>
             </div><br>
-            <input class="btn" type="submit" value="Generate"/>
+            <input class="btn" type="submit" data-i18n="generate" value="Generate"/>
         </form>
 
         <!-- Import Key Pair -->
         <form id="import-priv">
             <div class="input-field">
                 <textarea id="privKeyArea" class="key-textarea materialize-textarea" placeholder="-----BEGIN PGP PRIVATE KEY BLOCK-----" required></textarea>
-                <label for="privKeyArea">Private key</label>
-                <a tabindex="0" class="btn filled icon-left" id="privKeySelect"><i class="material-icons">upload_file</i>Import from file</a>
+                <label for="privKeyArea" data-i18n="privateKey">Private key</label>
+                <a tabindex="0" class="btn filled icon-left" id="privKeySelect"><i class="material-icons">upload_file</i><span data-i18n="importFromFile">Import from file</span></a>
             </div><br>
-            <input class="btn" type="submit" value="Import"/>
+            <input class="btn" type="submit" data-i18n="import" value="Import"/>
         </form>
 
         <!-- Import Public Key -->
         <form id="import-pub">
             <div class="input-field">
                 <textarea id="pubKeyArea" class="key-textarea materialize-textarea" placeholder="-----BEGIN PGP PUBLIC KEY BLOCK-----" required></textarea>
-                <label for="pubKeyArea">Public key</label>
-                <a tabindex="0" class="btn filled icon-left" id="pubKeySelect"><i class="material-icons">upload_file</i>Import from file</a>
+                <label for="pubKeyArea" data-i18n="publicKey">Public key</label>
+                <a tabindex="0" class="btn filled icon-left" id="pubKeySelect"><i class="material-icons">upload_file</i><span data-i18n="importFromFile">Import from file</span></a>
             </div><br>
-            <input class="btn" type="submit" value="Import"/>
+            <input class="btn" type="submit" data-i18n="import" value="Import"/>
         </form>
 
         <!-- Modal Container -->

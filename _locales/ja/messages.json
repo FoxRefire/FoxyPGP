@@ -1,0 +1,311 @@
+{
+  "appName": {
+    "message": "FoxyPGP",
+    "description": "アプリケーション名"
+  },
+  "appDescription": {
+    "message": "Webブラウザ向けPGP統合！",
+    "description": "アプリケーションの説明"
+  },
+  "name": {
+    "message": "名前",
+    "description": "名前ラベル"
+  },
+  "email": {
+    "message": "メール",
+    "description": "メールラベル"
+  },
+  "type": {
+    "message": "タイプ",
+    "description": "タイプラベル"
+  },
+  "id": {
+    "message": "ID",
+    "description": "IDラベル"
+  },
+  "settings": {
+    "message": "設定",
+    "description": "設定"
+  },
+  "openEditor": {
+    "message": "エディタを開く",
+    "description": "エディタを開く"
+  },
+  "addNewKey": {
+    "message": "新しいキーを追加",
+    "description": "新しいキーを追加"
+  },
+  "settingsTitle": {
+    "message": "設定",
+    "description": "設定ページのタイトル"
+  },
+  "webpage": {
+    "message": "ウェブページ",
+    "description": "ウェブページセクション"
+  },
+  "showContextMenu": {
+    "message": "コンテキストメニューを表示",
+    "description": "コンテキストメニューを表示オプション"
+  },
+  "database": {
+    "message": "データベース",
+    "description": "データベースセクション"
+  },
+  "backupDatabase": {
+    "message": "データベースをバックアップ",
+    "description": "データベースをバックアップボタン"
+  },
+  "restoreBackup": {
+    "message": "バックアップを復元",
+    "description": "バックアップを復元ボタン"
+  },
+  "clearDatabase": {
+    "message": "データベースをクリア",
+    "description": "データベースをクリアボタン"
+  },
+  "about": {
+    "message": "について",
+    "description": "についてセクション"
+  },
+  "app": {
+    "message": "アプリ",
+    "description": "アプリラベル"
+  },
+  "version": {
+    "message": "バージョン",
+    "description": "バージョンラベル"
+  },
+  "author": {
+    "message": "作者",
+    "description": "作者ラベル"
+  },
+  "sourceCode": {
+    "message": "ソースコード",
+    "description": "ソースコードラベル"
+  },
+  "license": {
+    "message": "ライセンス",
+    "description": "ライセンスラベル"
+  },
+  "addKeys": {
+    "message": "キーを追加",
+    "description": "キーを追加ページのタイトル"
+  },
+  "generateKeyPair": {
+    "message": "キーペアを生成",
+    "description": "キーペアを生成タブ"
+  },
+  "importKeyPair": {
+    "message": "キーペアをインポート",
+    "description": "キーペアをインポートタブ"
+  },
+  "importPublicKey": {
+    "message": "公開キーをインポート",
+    "description": "公開キーをインポートタブ"
+  },
+  "namePlaceholder": {
+    "message": "アリス",
+    "description": "名前のプレースホルダー"
+  },
+  "nameLabel": {
+    "message": "名前*",
+    "description": "アスタリスク付き名前ラベル"
+  },
+  "emailPlaceholder": {
+    "message": "alice@example.com",
+    "description": "メールのプレースホルダー"
+  },
+  "emailLabel": {
+    "message": "メール",
+    "description": "メールラベル"
+  },
+  "passphrasePlaceholder": {
+    "message": "*********",
+    "description": "パスフレーズのプレースホルダー"
+  },
+  "passphraseLabel": {
+    "message": "パスフレーズ*",
+    "description": "パスフレーズラベル"
+  },
+  "passphraseConfirmLabel": {
+    "message": "パスフレーズ（確認）*",
+    "description": "パスフレーズ確認ラベル"
+  },
+  "generate": {
+    "message": "生成",
+    "description": "生成ボタン"
+  },
+  "privateKey": {
+    "message": "秘密キー",
+    "description": "秘密キーラベル"
+  },
+  "publicKey": {
+    "message": "公開キー",
+    "description": "公開キーラベル"
+  },
+  "importFromFile": {
+    "message": "ファイルからインポート",
+    "description": "ファイルからインポートボタン"
+  },
+  "import": {
+    "message": "インポート",
+    "description": "インポートボタン"
+  },
+  "editor": {
+    "message": "エディタ",
+    "description": "エディタページのタイトル"
+  },
+  "content": {
+    "message": "コンテンツ",
+    "description": "コンテンツラベル"
+  },
+  "sign": {
+    "message": "署名",
+    "description": "署名ボタン"
+  },
+  "verify": {
+    "message": "検証",
+    "description": "検証ボタン"
+  },
+  "encrypt": {
+    "message": "暗号化",
+    "description": "暗号化ボタン"
+  },
+  "decrypt": {
+    "message": "復号化",
+    "description": "復号化ボタン"
+  },
+  "keyDetails": {
+    "message": "キーの詳細",
+    "description": "キーの詳細ページのタイトル"
+  },
+  "openEditorButton": {
+    "message": "エディタを開く",
+    "description": "エディタを開くボタン"
+  },
+  "changePassword": {
+    "message": "パスワードを変更",
+    "description": "パスワードを変更ボタン"
+  },
+  "removeKey": {
+    "message": "このキーを削除",
+    "description": "このキーを削除ボタン"
+  },
+  "exportPublicKey": {
+    "message": "公開キーをエクスポート",
+    "description": "公開キーをエクスポートボタン"
+  },
+  "exportPrivateKey": {
+    "message": "秘密キーをエクスポート",
+    "description": "秘密キーをエクスポートボタン"
+  },
+  "creationTime": {
+    "message": "作成日時",
+    "description": "作成日時ラベル"
+  },
+  "expirationTime": {
+    "message": "有効期限",
+    "description": "有効期限ラベル"
+  },
+  "algorithm": {
+    "message": "アルゴリズム",
+    "description": "アルゴリズムラベル"
+  },
+  "fingerprint": {
+    "message": "フィンガープリント",
+    "description": "フィンガープリントラベル"
+  },
+  "ok": {
+    "message": "OK",
+    "description": "OKボタン"
+  },
+  "yes": {
+    "message": "はい",
+    "description": "はいボタン"
+  },
+  "no": {
+    "message": "いいえ",
+    "description": "いいえボタン"
+  },
+  "cancel": {
+    "message": "キャンセル",
+    "description": "キャンセルボタン"
+  },
+  "confirm": {
+    "message": "確認",
+    "description": "確認タイトル"
+  },
+  "succeed": {
+    "message": "成功",
+    "description": "成功タイトル"
+  },
+  "error": {
+    "message": "エラー",
+    "description": "エラータイトル"
+  },
+  "keyPairCreated": {
+    "message": "キーペアが作成されました",
+    "description": "キーペア作成メッセージ"
+  },
+  "keyPairImported": {
+    "message": "キーペアがインポートされました",
+    "description": "キーペアインポートメッセージ"
+  },
+  "publicKeyImported": {
+    "message": "公開キーがインポートされました",
+    "description": "公開キーインポートメッセージ"
+  },
+  "signatureVerified": {
+    "message": "署名が検証されました",
+    "description": "署名検証メッセージ"
+  },
+  "signatureMismatched": {
+    "message": "署名が一致しません",
+    "description": "署名不一致メッセージ"
+  },
+  "decryptionFailed": {
+    "message": "復号化に失敗しました",
+    "description": "復号化失敗メッセージ"
+  },
+  "passphraseNotMatch": {
+    "message": "パスフレーズが一致しませんでした",
+    "description": "パスフレーズ不一致メッセージ"
+  },
+  "confirmRestoreBackup": {
+    "message": "バックアップを復元してもよろしいですか？これを行うと元のデータが上書きされます。",
+    "description": "バックアップ復元確認メッセージ"
+  },
+  "confirmClearDatabase": {
+    "message": "データベースを削除してもよろしいですか？バックアップがない限り、再度復元することはできません。",
+    "description": "データベースクリア確認メッセージ"
+  },
+  "confirmRemoveKey": {
+    "message": "このキーを削除してもよろしいですか？バックアップがない限り、再度復元することはできません。",
+    "description": "キー削除確認メッセージ"
+  },
+  "enterPassphrase": {
+    "message": "パスフレーズを入力",
+    "description": "パスフレーズ入力タイトル"
+  },
+  "enterPassphraseMessage": {
+    "message": "秘密キーのパスフレーズを入力してください",
+    "description": "パスフレーズ入力メッセージ"
+  },
+  "setNewPassphrase": {
+    "message": "新しいパスフレーズを設定",
+    "description": "新しいパスフレーズ設定タイトル"
+  },
+  "newPassphrase": {
+    "message": "新しいパスフレーズ",
+    "description": "新しいパスフレーズラベル"
+  },
+  "confirmNewPassphrase": {
+    "message": "新しいパスフレーズを確認",
+    "description": "新しいパスフレーズ確認ラベル"
+  },
+  "openAsFoxyPGPEditor": {
+    "message": "FoxyPGPエディタとして開く",
+    "description": "コンテキストメニュー項目"
+  }
+}
+

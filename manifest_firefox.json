@@ -1,13 +1,14 @@
 {
-    "name": "FoxyPGP",
-    "description": "PGP integration for web browsers!",
+    "name": "__MSG_appName__",
+    "description": "__MSG_appDescription__",
     "version": "1.4",
+    "default_locale": "en",
     "manifest_version": 3,
     "icons": {
         "128": "icon.png"
     },
     "action": {
-        "default_title": "FoxyPGP"
+        "default_title": "__MSG_appName__"
     },
     "background": {
         "scripts": ["background.js"],

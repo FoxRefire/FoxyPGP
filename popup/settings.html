@@ -9,45 +9,45 @@
         <!-- NavBar -->
         <nav>
             <div class="nav-wrapper">
-                <a class="brand-logo center">Settings</a>
+                <a class="brand-logo center" data-i18n="settingsTitle">Settings</a>
                 <a href="/popup/manager.html"><i class="material-icons back_button">arrow_back</i></a>
             </div>
         </nav>
-        <h4>Webpage</h4>
+        <h4 data-i18n="webpage">Webpage</h4>
         <div class="switch">
-            Show Context Menu
+            <span data-i18n="showContextMenu">Show Context Menu</span>
             <label>
                 <input id="isContextMenu" type="checkbox" checked>
                 <span class="lever"></span>
             </label>
         </div>
 
-        <h4>Database</h4>
-        <a tabindex="0" class="btn filled icon-left" id="backupDB"><i class="material-icons">save</i>Backup Database</a>
-        <a tabindex="0" class="btn filled icon-left" id="restoreDB"><i class="material-icons">settings_backup_restore</i>Restore Backup</a>
-        <a tabindex="0" class="btn filled icon-left" id="clearDB"><i class="material-icons">delete_forever</i>Clear Database</a>
+        <h4 data-i18n="database">Database</h4>
+        <a tabindex="0" class="btn filled icon-left" id="backupDB"><i class="material-icons">save</i><span data-i18n="backupDatabase">Backup Database</span></a>
+        <a tabindex="0" class="btn filled icon-left" id="restoreDB"><i class="material-icons">settings_backup_restore</i><span data-i18n="restoreBackup">Restore Backup</span></a>
+        <a tabindex="0" class="btn filled icon-left" id="clearDB"><i class="material-icons">delete_forever</i><span data-i18n="clearDatabase">Clear Database</span></a>
 
-        <h4>About</h4>
+        <h4 data-i18n="about">About</h4>
         <table>
             <tbody>
                 <tr>
-                    <th>App</th>
-                    <th>FoxyPGP</th>
+                    <th data-i18n="app">App</th>
+                    <th data-i18n="appName">FoxyPGP</th>
                 </tr>
                 <tr>
-                    <th>Version</th>
+                    <th data-i18n="version">Version</th>
                     <th>1.0</th>
                 </tr>
                 <tr>
-                    <th>Author</th>
+                    <th data-i18n="author">Author</th>
                     <th><a href="https://github.com/FoxRefire" target="_blank">FoxRefire</a></th>
                 </tr>
                 <tr>
-                    <th>Source code</th>
+                    <th data-i18n="sourceCode">Source code</th>
                     <th><a href="https://github.com/FoxRefire/FoxyPGP" target="_blank">https://github.com/FoxRefire/FoxyPGP</a></th>
                 </tr>
                 <tr>
-                    <th>License</th>
+                    <th data-i18n="license">License</th>
                     <th><a href="https://github.com/FoxRefire/FoxyPGP/blob/main/LICENSE" target="_blank">GNU Affero General Public License v3.0</a></th>
                 </tr>
             </tbody>

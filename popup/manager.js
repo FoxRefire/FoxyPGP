@@ -1,7 +1,9 @@
 import "/libs/jquery.min.js"
 import getKeysAsArray from "/utils/getKeysAsArray.js"
+import { translateDocument } from "/utils/i18n.js"
 
 document.addEventListener('DOMContentLoaded', async () => {
+    translateDocument();
     M.FloatingActionButton.init($(".fixed-action-btn"), {hoverEnabled: false});
     M.Tooltip.init($(".tooltipped"), null);
     writeKeysList(await getKeysAsArray())

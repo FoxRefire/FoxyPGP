@@ -1,0 +1,311 @@
+{
+  "appName": {
+    "message": "FoxyPGP",
+    "description": "Application name"
+  },
+  "appDescription": {
+    "message": "PGP integration for web browsers!",
+    "description": "Application description"
+  },
+  "name": {
+    "message": "Name",
+    "description": "Name label"
+  },
+  "email": {
+    "message": "E-mail",
+    "description": "Email label"
+  },
+  "type": {
+    "message": "Type",
+    "description": "Type label"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID label"
+  },
+  "settings": {
+    "message": "Settings",
+    "description": "Settings"
+  },
+  "openEditor": {
+    "message": "Open Editor",
+    "description": "Open Editor"
+  },
+  "addNewKey": {
+    "message": "Add a new key",
+    "description": "Add a new key"
+  },
+  "settingsTitle": {
+    "message": "Settings",
+    "description": "Settings page title"
+  },
+  "webpage": {
+    "message": "Webpage",
+    "description": "Webpage section"
+  },
+  "showContextMenu": {
+    "message": "Show Context Menu",
+    "description": "Show Context Menu option"
+  },
+  "database": {
+    "message": "Database",
+    "description": "Database section"
+  },
+  "backupDatabase": {
+    "message": "Backup Database",
+    "description": "Backup Database button"
+  },
+  "restoreBackup": {
+    "message": "Restore Backup",
+    "description": "Restore Backup button"
+  },
+  "clearDatabase": {
+    "message": "Clear Database",
+    "description": "Clear Database button"
+  },
+  "about": {
+    "message": "About",
+    "description": "About section"
+  },
+  "app": {
+    "message": "App",
+    "description": "App label"
+  },
+  "version": {
+    "message": "Version",
+    "description": "Version label"
+  },
+  "author": {
+    "message": "Author",
+    "description": "Author label"
+  },
+  "sourceCode": {
+    "message": "Source code",
+    "description": "Source code label"
+  },
+  "license": {
+    "message": "License",
+    "description": "License label"
+  },
+  "addKeys": {
+    "message": "Add Keys",
+    "description": "Add Keys page title"
+  },
+  "generateKeyPair": {
+    "message": "Generate Key Pair",
+    "description": "Generate Key Pair tab"
+  },
+  "importKeyPair": {
+    "message": "Import Key Pair",
+    "description": "Import Key Pair tab"
+  },
+  "importPublicKey": {
+    "message": "Import Public Key",
+    "description": "Import Public Key tab"
+  },
+  "namePlaceholder": {
+    "message": "Alice",
+    "description": "Name placeholder"
+  },
+  "nameLabel": {
+    "message": "Name*",
+    "description": "Name label with asterisk"
+  },
+  "emailPlaceholder": {
+    "message": "alice@carolmail.net",
+    "description": "Email placeholder"
+  },
+  "emailLabel": {
+    "message": "Email",
+    "description": "Email label"
+  },
+  "passphrasePlaceholder": {
+    "message": "*********",
+    "description": "Passphrase placeholder"
+  },
+  "passphraseLabel": {
+    "message": "Passphrase*",
+    "description": "Passphrase label"
+  },
+  "passphraseConfirmLabel": {
+    "message": "Passphrase (confirm)*",
+    "description": "Passphrase confirm label"
+  },
+  "generate": {
+    "message": "Generate",
+    "description": "Generate button"
+  },
+  "privateKey": {
+    "message": "Private key",
+    "description": "Private key label"
+  },
+  "publicKey": {
+    "message": "Public key",
+    "description": "Public key label"
+  },
+  "importFromFile": {
+    "message": "Import from file",
+    "description": "Import from file button"
+  },
+  "import": {
+    "message": "Import",
+    "description": "Import button"
+  },
+  "editor": {
+    "message": "Editor",
+    "description": "Editor page title"
+  },
+  "content": {
+    "message": "Content",
+    "description": "Content label"
+  },
+  "sign": {
+    "message": "Sign",
+    "description": "Sign button"
+  },
+  "verify": {
+    "message": "Verify",
+    "description": "Verify button"
+  },
+  "encrypt": {
+    "message": "Encrypt",
+    "description": "Encrypt button"
+  },
+  "decrypt": {
+    "message": "Decrypt",
+    "description": "Decrypt button"
+  },
+  "keyDetails": {
+    "message": "Key Details",
+    "description": "Key Details page title"
+  },
+  "openEditorButton": {
+    "message": "Open Editor",
+    "description": "Open Editor button"
+  },
+  "changePassword": {
+    "message": "Change Password",
+    "description": "Change Password button"
+  },
+  "removeKey": {
+    "message": "Remove this key",
+    "description": "Remove this key button"
+  },
+  "exportPublicKey": {
+    "message": "Export Public Key",
+    "description": "Export Public Key button"
+  },
+  "exportPrivateKey": {
+    "message": "Export Private Key",
+    "description": "Export Private Key button"
+  },
+  "creationTime": {
+    "message": "Creation Time",
+    "description": "Creation Time label"
+  },
+  "expirationTime": {
+    "message": "Expiration Time",
+    "description": "Expiration Time label"
+  },
+  "algorithm": {
+    "message": "Algorithm",
+    "description": "Algorithm label"
+  },
+  "fingerprint": {
+    "message": "Fingerprint",
+    "description": "Fingerprint label"
+  },
+  "ok": {
+    "message": "OK",
+    "description": "OK button"
+  },
+  "yes": {
+    "message": "Yes",
+    "description": "Yes button"
+  },
+  "no": {
+    "message": "No",
+    "description": "No button"
+  },
+  "cancel": {
+    "message": "Cancel",
+    "description": "Cancel button"
+  },
+  "confirm": {
+    "message": "Confirm",
+    "description": "Confirm title"
+  },
+  "succeed": {
+    "message": "Succeed",
+    "description": "Succeed title"
+  },
+  "error": {
+    "message": "Error",
+    "description": "Error title"
+  },
+  "keyPairCreated": {
+    "message": "Key Pair has created",
+    "description": "Key Pair created message"
+  },
+  "keyPairImported": {
+    "message": "Key Pair has imported",
+    "description": "Key Pair imported message"
+  },
+  "publicKeyImported": {
+    "message": "Public Key has imported",
+    "description": "Public Key imported message"
+  },
+  "signatureVerified": {
+    "message": "Signature verified",
+    "description": "Signature verified message"
+  },
+  "signatureMismatched": {
+    "message": "Signature mismatched",
+    "description": "Signature mismatched message"
+  },
+  "decryptionFailed": {
+    "message": "Decryption failed",
+    "description": "Decryption failed message"
+  },
+  "passphraseNotMatch": {
+    "message": "Passphrase wasn't match",
+    "description": "Passphrase not match message"
+  },
+  "confirmRestoreBackup": {
+    "message": "Are you sure you want to restore the backup? Doing this will overwrite the original data.",
+    "description": "Confirm restore backup message"
+  },
+  "confirmClearDatabase": {
+    "message": "Are you sure you want to delete the database? Unless you have a backup, you will never be able to restore it again.",
+    "description": "Confirm clear database message"
+  },
+  "confirmRemoveKey": {
+    "message": "Are you sure you want to remove this key? Unless you have a backup, you will never be able to restore it again.",
+    "description": "Confirm remove key message"
+  },
+  "enterPassphrase": {
+    "message": "Enter Passphrase",
+    "description": "Enter Passphrase title"
+  },
+  "enterPassphraseMessage": {
+    "message": "Enter a passphrase of your private key",
+    "description": "Enter passphrase message"
+  },
+  "setNewPassphrase": {
+    "message": "Set new passphrase",
+    "description": "Set new passphrase title"
+  },
+  "newPassphrase": {
+    "message": "New passphrase",
+    "description": "New passphrase label"
+  },
+  "confirmNewPassphrase": {
+    "message": "Confirm new passphrase",
+    "description": "Confirm new passphrase label"
+  },
+  "openAsFoxyPGPEditor": {
+    "message": "Open as FoxyPGP editor",
+    "description": "Context menu item"
+  }
+}
+

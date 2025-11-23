@@ -4,9 +4,11 @@ import getKeysAsArray from "/utils/getKeysAsArray.js"
 import loadKeyAsObject from "/utils/loadKeyAsObject.js"
 import downloadTextData from "/utils/downloadTextData.js"
 import modal from "/utils/modal.js";
+import { translateDocument, t } from "/utils/i18n.js";
 
 
 document.addEventListener('DOMContentLoaded', async () => {
+    translateDocument();
     writeKeyDetails()
     hideUnnesesaryElement()
 })
@@ -15,14 +17,14 @@ async function writeKeyDetails(){
     let id = (new URL(location.href)).searchParams.get("id")
     let data = (await getKeysAsArray()).find(e => e.id==id)
     let details = [
-        ["Name", data.name],
-        ["Email", data.email],
-        ["Type", data.type],
-        ["Creation Time", data.creationTime],
-        ["Expiration Time", data.expirationTime],
-        ["Algorithm", data.algorithm],
-        ["ID", data.id],
-        ["Fingerprint", data.fingerprint]
+        [t("name"), data.name],
+        [t("email"), data.email],
+        [t("type"), data.type],
+        [t("creationTime"), data.creationTime],
+        [t("expirationTime"), data.expirationTime],
+        [t("algorithm"), data.algorithm],
+        [t("id"), data.id],
+        [t("fingerprint"), data.fingerprint]
     ]
     details.forEach(item => {
         $("#detailsTable")[0].insertAdjacentHTML("beforeend", `
@@ -54,7 +56,7 @@ async function changePass(){
     let [newPass, newPassConfirm] = await modal.newPassphrase()
 
     if(newPass != newPassConfirm){
-        modal.alert("Error", "Passphrase wasn't match")
+        modal.alert(t("error"), t("passphraseNotMatch"))
         return
     }
 
@@ -65,7 +67,7 @@ async function changePass(){
 }
 
 async function removeKey(){
-    await modal.confirm("Confirm", "Are you sure you want to remove this key? Unless you have a backup, you will never be able to restore it again.")
+    await modal.confirm(t("confirm"), t("confirmRemoveKey"))
     let id = (new URL(location.href)).searchParams.get("id")
     let current = await chrome.storage.local.get("keys").then(v => v.keys)
     delete current[id]

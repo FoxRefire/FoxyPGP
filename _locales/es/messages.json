@@ -1,0 +1,311 @@
+{
+  "appName": {
+    "message": "FoxyPGP",
+    "description": "Nombre de la aplicación"
+  },
+  "appDescription": {
+    "message": "¡Integración PGP para navegadores web!",
+    "description": "Descripción de la aplicación"
+  },
+  "name": {
+    "message": "Nombre",
+    "description": "Etiqueta Nombre"
+  },
+  "email": {
+    "message": "Correo electrónico",
+    "description": "Etiqueta Correo electrónico"
+  },
+  "type": {
+    "message": "Tipo",
+    "description": "Etiqueta Tipo"
+  },
+  "id": {
+    "message": "ID",
+    "description": "Etiqueta ID"
+  },
+  "settings": {
+    "message": "Configuración",
+    "description": "Configuración"
+  },
+  "openEditor": {
+    "message": "Abrir editor",
+    "description": "Abrir editor"
+  },
+  "addNewKey": {
+    "message": "Agregar una nueva clave",
+    "description": "Agregar una nueva clave"
+  },
+  "settingsTitle": {
+    "message": "Configuración",
+    "description": "Título de la página Configuración"
+  },
+  "webpage": {
+    "message": "Página web",
+    "description": "Sección Página web"
+  },
+  "showContextMenu": {
+    "message": "Mostrar menú contextual",
+    "description": "Opción Mostrar menú contextual"
+  },
+  "database": {
+    "message": "Base de datos",
+    "description": "Sección Base de datos"
+  },
+  "backupDatabase": {
+    "message": "Respaldar base de datos",
+    "description": "Botón Respaldar base de datos"
+  },
+  "restoreBackup": {
+    "message": "Restaurar respaldo",
+    "description": "Botón Restaurar respaldo"
+  },
+  "clearDatabase": {
+    "message": "Limpiar base de datos",
+    "description": "Botón Limpiar base de datos"
+  },
+  "about": {
+    "message": "Acerca de",
+    "description": "Sección Acerca de"
+  },
+  "app": {
+    "message": "Aplicación",
+    "description": "Etiqueta Aplicación"
+  },
+  "version": {
+    "message": "Versión",
+    "description": "Etiqueta Versión"
+  },
+  "author": {
+    "message": "Autor",
+    "description": "Etiqueta Autor"
+  },
+  "sourceCode": {
+    "message": "Código fuente",
+    "description": "Etiqueta Código fuente"
+  },
+  "license": {
+    "message": "Licencia",
+    "description": "Etiqueta Licencia"
+  },
+  "addKeys": {
+    "message": "Agregar claves",
+    "description": "Título de la página Agregar claves"
+  },
+  "generateKeyPair": {
+    "message": "Generar par de claves",
+    "description": "Pestaña Generar par de claves"
+  },
+  "importKeyPair": {
+    "message": "Importar par de claves",
+    "description": "Pestaña Importar par de claves"
+  },
+  "importPublicKey": {
+    "message": "Importar clave pública",
+    "description": "Pestaña Importar clave pública"
+  },
+  "namePlaceholder": {
+    "message": "Alicia",
+    "description": "Marcador de posición Nombre"
+  },
+  "nameLabel": {
+    "message": "Nombre*",
+    "description": "Etiqueta Nombre con asterisco"
+  },
+  "emailPlaceholder": {
+    "message": "alice@ejemplo.com",
+    "description": "Marcador de posición Correo electrónico"
+  },
+  "emailLabel": {
+    "message": "Correo electrónico",
+    "description": "Etiqueta Correo electrónico"
+  },
+  "passphrasePlaceholder": {
+    "message": "*********",
+    "description": "Marcador de posición Frase de contraseña"
+  },
+  "passphraseLabel": {
+    "message": "Frase de contraseña*",
+    "description": "Etiqueta Frase de contraseña"
+  },
+  "passphraseConfirmLabel": {
+    "message": "Frase de contraseña (confirmar)*",
+    "description": "Etiqueta Confirmar frase de contraseña"
+  },
+  "generate": {
+    "message": "Generar",
+    "description": "Botón Generar"
+  },
+  "privateKey": {
+    "message": "Clave privada",
+    "description": "Etiqueta Clave privada"
+  },
+  "publicKey": {
+    "message": "Clave pública",
+    "description": "Etiqueta Clave pública"
+  },
+  "importFromFile": {
+    "message": "Importar desde archivo",
+    "description": "Botón Importar desde archivo"
+  },
+  "import": {
+    "message": "Importar",
+    "description": "Botón Importar"
+  },
+  "editor": {
+    "message": "Editor",
+    "description": "Título de la página Editor"
+  },
+  "content": {
+    "message": "Contenido",
+    "description": "Etiqueta Contenido"
+  },
+  "sign": {
+    "message": "Firmar",
+    "description": "Botón Firmar"
+  },
+  "verify": {
+    "message": "Verificar",
+    "description": "Botón Verificar"
+  },
+  "encrypt": {
+    "message": "Cifrar",
+    "description": "Botón Cifrar"
+  },
+  "decrypt": {
+    "message": "Descifrar",
+    "description": "Botón Descifrar"
+  },
+  "keyDetails": {
+    "message": "Detalles de la clave",
+    "description": "Título de la página Detalles de la clave"
+  },
+  "openEditorButton": {
+    "message": "Abrir editor",
+    "description": "Botón Abrir editor"
+  },
+  "changePassword": {
+    "message": "Cambiar contraseña",
+    "description": "Botón Cambiar contraseña"
+  },
+  "removeKey": {
+    "message": "Eliminar esta clave",
+    "description": "Botón Eliminar esta clave"
+  },
+  "exportPublicKey": {
+    "message": "Exportar clave pública",
+    "description": "Botón Exportar clave pública"
+  },
+  "exportPrivateKey": {
+    "message": "Exportar clave privada",
+    "description": "Botón Exportar clave privada"
+  },
+  "creationTime": {
+    "message": "Hora de creación",
+    "description": "Etiqueta Hora de creación"
+  },
+  "expirationTime": {
+    "message": "Hora de expiración",
+    "description": "Etiqueta Hora de expiración"
+  },
+  "algorithm": {
+    "message": "Algoritmo",
+    "description": "Etiqueta Algoritmo"
+  },
+  "fingerprint": {
+    "message": "Huella digital",
+    "description": "Etiqueta Huella digital"
+  },
+  "ok": {
+    "message": "Aceptar",
+    "description": "Botón Aceptar"
+  },
+  "yes": {
+    "message": "Sí",
+    "description": "Botón Sí"
+  },
+  "no": {
+    "message": "No",
+    "description": "Botón No"
+  },
+  "cancel": {
+    "message": "Cancelar",
+    "description": "Botón Cancelar"
+  },
+  "confirm": {
+    "message": "Confirmar",
+    "description": "Título Confirmar"
+  },
+  "succeed": {
+    "message": "Éxito",
+    "description": "Título Éxito"
+  },
+  "error": {
+    "message": "Error",
+    "description": "Título Error"
+  },
+  "keyPairCreated": {
+    "message": "Par de claves creado",
+    "description": "Mensaje Par de claves creado"
+  },
+  "keyPairImported": {
+    "message": "Par de claves importado",
+    "description": "Mensaje Par de claves importado"
+  },
+  "publicKeyImported": {
+    "message": "Clave pública importada",
+    "description": "Mensaje Clave pública importada"
+  },
+  "signatureVerified": {
+    "message": "Firma verificada",
+    "description": "Mensaje Firma verificada"
+  },
+  "signatureMismatched": {
+    "message": "Firma no coincide",
+    "description": "Mensaje Firma no coincide"
+  },
+  "decryptionFailed": {
+    "message": "Descifrado fallido",
+    "description": "Mensaje Descifrado fallido"
+  },
+  "passphraseNotMatch": {
+    "message": "La frase de contraseña no coincide",
+    "description": "Mensaje La frase de contraseña no coincide"
+  },
+  "confirmRestoreBackup": {
+    "message": "¿Está seguro de que desea restaurar el respaldo? Esto sobrescribirá los datos originales.",
+    "description": "Mensaje Confirmar restaurar respaldo"
+  },
+  "confirmClearDatabase": {
+    "message": "¿Está seguro de que desea eliminar la base de datos? A menos que tenga un respaldo, nunca podrá restaurarla nuevamente.",
+    "description": "Mensaje Confirmar limpiar base de datos"
+  },
+  "confirmRemoveKey": {
+    "message": "¿Está seguro de que desea eliminar esta clave? A menos que tenga un respaldo, nunca podrá restaurarla nuevamente.",
+    "description": "Mensaje Confirmar eliminar clave"
+  },
+  "enterPassphrase": {
+    "message": "Ingresar frase de contraseña",
+    "description": "Título Ingresar frase de contraseña"
+  },
+  "enterPassphraseMessage": {
+    "message": "Ingrese la frase de contraseña de su clave privada",
+    "description": "Mensaje Ingresar frase de contraseña"
+  },
+  "setNewPassphrase": {
+    "message": "Establecer nueva frase de contraseña",
+    "description": "Título Establecer nueva frase de contraseña"
+  },
+  "newPassphrase": {
+    "message": "Nueva frase de contraseña",
+    "description": "Etiqueta Nueva frase de contraseña"
+  },
+  "confirmNewPassphrase": {
+    "message": "Confirmar nueva frase de contraseña",
+    "description": "Etiqueta Confirmar nueva frase de contraseña"
+  },
+  "openAsFoxyPGPEditor": {
+    "message": "Abrir como editor FoxyPGP",
+    "description": "Elemento del menú contextual"
+  }
+}
+

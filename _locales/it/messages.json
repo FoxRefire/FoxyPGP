@@ -1,0 +1,311 @@
+{
+  "appName": {
+    "message": "FoxyPGP",
+    "description": "Nome dell'applicazione"
+  },
+  "appDescription": {
+    "message": "Integrazione PGP per browser web!",
+    "description": "Descrizione dell'applicazione"
+  },
+  "name": {
+    "message": "Nome",
+    "description": "Etichetta Nome"
+  },
+  "email": {
+    "message": "E-mail",
+    "description": "Etichetta E-mail"
+  },
+  "type": {
+    "message": "Tipo",
+    "description": "Etichetta Tipo"
+  },
+  "id": {
+    "message": "ID",
+    "description": "Etichetta ID"
+  },
+  "settings": {
+    "message": "Impostazioni",
+    "description": "Impostazioni"
+  },
+  "openEditor": {
+    "message": "Apri editor",
+    "description": "Apri editor"
+  },
+  "addNewKey": {
+    "message": "Aggiungi una nuova chiave",
+    "description": "Aggiungi una nuova chiave"
+  },
+  "settingsTitle": {
+    "message": "Impostazioni",
+    "description": "Titolo della pagina Impostazioni"
+  },
+  "webpage": {
+    "message": "Pagina web",
+    "description": "Sezione Pagina web"
+  },
+  "showContextMenu": {
+    "message": "Mostra menu contestuale",
+    "description": "Opzione Mostra menu contestuale"
+  },
+  "database": {
+    "message": "Database",
+    "description": "Sezione Database"
+  },
+  "backupDatabase": {
+    "message": "Backup database",
+    "description": "Pulsante Backup database"
+  },
+  "restoreBackup": {
+    "message": "Ripristina backup",
+    "description": "Pulsante Ripristina backup"
+  },
+  "clearDatabase": {
+    "message": "Cancella database",
+    "description": "Pulsante Cancella database"
+  },
+  "about": {
+    "message": "Informazioni",
+    "description": "Sezione Informazioni"
+  },
+  "app": {
+    "message": "App",
+    "description": "Etichetta App"
+  },
+  "version": {
+    "message": "Versione",
+    "description": "Etichetta Versione"
+  },
+  "author": {
+    "message": "Autore",
+    "description": "Etichetta Autore"
+  },
+  "sourceCode": {
+    "message": "Codice sorgente",
+    "description": "Etichetta Codice sorgente"
+  },
+  "license": {
+    "message": "Licenza",
+    "description": "Etichetta Licenza"
+  },
+  "addKeys": {
+    "message": "Aggiungi chiavi",
+    "description": "Titolo della pagina Aggiungi chiavi"
+  },
+  "generateKeyPair": {
+    "message": "Genera coppia di chiavi",
+    "description": "Scheda Genera coppia di chiavi"
+  },
+  "importKeyPair": {
+    "message": "Importa coppia di chiavi",
+    "description": "Scheda Importa coppia di chiavi"
+  },
+  "importPublicKey": {
+    "message": "Importa chiave pubblica",
+    "description": "Scheda Importa chiave pubblica"
+  },
+  "namePlaceholder": {
+    "message": "Alice",
+    "description": "Segnaposto Nome"
+  },
+  "nameLabel": {
+    "message": "Nome*",
+    "description": "Etichetta Nome con asterisco"
+  },
+  "emailPlaceholder": {
+    "message": "alice@esempio.it",
+    "description": "Segnaposto E-mail"
+  },
+  "emailLabel": {
+    "message": "E-mail",
+    "description": "Etichetta E-mail"
+  },
+  "passphrasePlaceholder": {
+    "message": "*********",
+    "description": "Segnaposto Passphrase"
+  },
+  "passphraseLabel": {
+    "message": "Passphrase*",
+    "description": "Etichetta Passphrase"
+  },
+  "passphraseConfirmLabel": {
+    "message": "Passphrase (conferma)*",
+    "description": "Etichetta Conferma passphrase"
+  },
+  "generate": {
+    "message": "Genera",
+    "description": "Pulsante Genera"
+  },
+  "privateKey": {
+    "message": "Chiave privata",
+    "description": "Etichetta Chiave privata"
+  },
+  "publicKey": {
+    "message": "Chiave pubblica",
+    "description": "Etichetta Chiave pubblica"
+  },
+  "importFromFile": {
+    "message": "Importa da file",
+    "description": "Pulsante Importa da file"
+  },
+  "import": {
+    "message": "Importa",
+    "description": "Pulsante Importa"
+  },
+  "editor": {
+    "message": "Editor",
+    "description": "Titolo della pagina Editor"
+  },
+  "content": {
+    "message": "Contenuto",
+    "description": "Etichetta Contenuto"
+  },
+  "sign": {
+    "message": "Firma",
+    "description": "Pulsante Firma"
+  },
+  "verify": {
+    "message": "Verifica",
+    "description": "Pulsante Verifica"
+  },
+  "encrypt": {
+    "message": "Cifra",
+    "description": "Pulsante Cifra"
+  },
+  "decrypt": {
+    "message": "Decifra",
+    "description": "Pulsante Decifra"
+  },
+  "keyDetails": {
+    "message": "Dettagli chiave",
+    "description": "Titolo della pagina Dettagli chiave"
+  },
+  "openEditorButton": {
+    "message": "Apri editor",
+    "description": "Pulsante Apri editor"
+  },
+  "changePassword": {
+    "message": "Cambia password",
+    "description": "Pulsante Cambia password"
+  },
+  "removeKey": {
+    "message": "Rimuovi questa chiave",
+    "description": "Pulsante Rimuovi questa chiave"
+  },
+  "exportPublicKey": {
+    "message": "Esporta chiave pubblica",
+    "description": "Pulsante Esporta chiave pubblica"
+  },
+  "exportPrivateKey": {
+    "message": "Esporta chiave privata",
+    "description": "Pulsante Esporta chiave privata"
+  },
+  "creationTime": {
+    "message": "Ora di creazione",
+    "description": "Etichetta Ora di creazione"
+  },
+  "expirationTime": {
+    "message": "Ora di scadenza",
+    "description": "Etichetta Ora di scadenza"
+  },
+  "algorithm": {
+    "message": "Algoritmo",
+    "description": "Etichetta Algoritmo"
+  },
+  "fingerprint": {
+    "message": "Impronta digitale",
+    "description": "Etichetta Impronta digitale"
+  },
+  "ok": {
+    "message": "OK",
+    "description": "Pulsante OK"
+  },
+  "yes": {
+    "message": "Sì",
+    "description": "Pulsante Sì"
+  },
+  "no": {
+    "message": "No",
+    "description": "Pulsante No"
+  },
+  "cancel": {
+    "message": "Annulla",
+    "description": "Pulsante Annulla"
+  },
+  "confirm": {
+    "message": "Conferma",
+    "description": "Titolo Conferma"
+  },
+  "succeed": {
+    "message": "Riuscito",
+    "description": "Titolo Riuscito"
+  },
+  "error": {
+    "message": "Errore",
+    "description": "Titolo Errore"
+  },
+  "keyPairCreated": {
+    "message": "Coppia di chiavi creata",
+    "description": "Messaggio Coppia di chiavi creata"
+  },
+  "keyPairImported": {
+    "message": "Coppia di chiavi importata",
+    "description": "Messaggio Coppia di chiavi importata"
+  },
+  "publicKeyImported": {
+    "message": "Chiave pubblica importata",
+    "description": "Messaggio Chiave pubblica importata"
+  },
+  "signatureVerified": {
+    "message": "Firma verificata",
+    "description": "Messaggio Firma verificata"
+  },
+  "signatureMismatched": {
+    "message": "Firma non corrispondente",
+    "description": "Messaggio Firma non corrispondente"
+  },
+  "decryptionFailed": {
+    "message": "Decifratura fallita",
+    "description": "Messaggio Decifratura fallita"
+  },
+  "passphraseNotMatch": {
+    "message": "La passphrase non corrisponde",
+    "description": "Messaggio La passphrase non corrisponde"
+  },
+  "confirmRestoreBackup": {
+    "message": "Sei sicuro di voler ripristinare il backup? Questo sovrascriverà i dati originali.",
+    "description": "Messaggio Conferma ripristina backup"
+  },
+  "confirmClearDatabase": {
+    "message": "Sei sicuro di voler eliminare il database? A meno che non si disponga di un backup, non sarà mai possibile ripristinarlo nuovamente.",
+    "description": "Messaggio Conferma cancella database"
+  },
+  "confirmRemoveKey": {
+    "message": "Sei sicuro di voler rimuovere questa chiave? A meno che non si disponga di un backup, non sarà mai possibile ripristinarla nuovamente.",
+    "description": "Messaggio Conferma rimuovi chiave"
+  },
+  "enterPassphrase": {
+    "message": "Inserisci passphrase",
+    "description": "Titolo Inserisci passphrase"
+  },
+  "enterPassphraseMessage": {
+    "message": "Inserisci la passphrase della tua chiave privata",
+    "description": "Messaggio Inserisci passphrase"
+  },
+  "setNewPassphrase": {
+    "message": "Imposta nuova passphrase",
+    "description": "Titolo Imposta nuova passphrase"
+  },
+  "newPassphrase": {
+    "message": "Nuova passphrase",
+    "description": "Etichetta Nuova passphrase"
+  },
+  "confirmNewPassphrase": {
+    "message": "Conferma nuova passphrase",
+    "description": "Etichetta Conferma nuova passphrase"
+  },
+  "openAsFoxyPGPEditor": {
+    "message": "Apri come editor FoxyPGP",
+    "description": "Voce del menu contestuale"
+  }
+}
+

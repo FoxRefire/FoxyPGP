@@ -16,7 +16,7 @@ if(chrome.windows){
 function createMenu(){
     chrome.contextMenus.create({
         id: "editor",
-        title: "Open as FoxyPGP editor",
+        title: chrome.i18n.getMessage("openAsFoxyPGPEditor"),
         contexts: ["editable","selection"]
     })
 }

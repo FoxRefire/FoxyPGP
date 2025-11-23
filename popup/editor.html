@@ -9,7 +9,7 @@
         <!-- NavBar -->
         <nav>
             <div class="nav-wrapper">
-                <a class="brand-logo center">Editor</a>
+                <a class="brand-logo center" data-i18n="editor">Editor</a>
                 <a href="/popup/manager.html"><i class="material-icons back_button">arrow_back</i></a>
             </div>
         </nav>
@@ -17,13 +17,13 @@
         <div id="editor-block">
             <div class="input-field">
                 <textarea id="editorText" class="editor-textarea materialize-textarea" required></textarea>
-                <label for="editorText">Content</label>
+                <label for="editorText" data-i18n="content">Content</label>
             </div><br>
             <div class="center">
-                <a tabindex="0" class="editor-tools btn filled icon-left" id="sign"><i class="material-icons">edit_square</i>Sign</a>
-                <a tabindex="0" class="editor-tools btn filled icon-left" id="verify"><i class="material-icons">fact_check</i>Verify</a>
-                <a tabindex="0" class="editor-tools btn filled icon-left" id="encrypt"><i class="material-icons">lock</i>Encrypt</a>
-                <a tabindex="0" class="editor-tools btn filled icon-left" id="decrypt"><i class="material-icons">lock_open</i>Decrypt</a>
+                <a tabindex="0" class="editor-tools btn filled icon-left" id="sign"><i class="material-icons">edit_square</i><span data-i18n="sign">Sign</span></a>
+                <a tabindex="0" class="editor-tools btn filled icon-left" id="verify"><i class="material-icons">fact_check</i><span data-i18n="verify">Verify</span></a>
+                <a tabindex="0" class="editor-tools btn filled icon-left" id="encrypt"><i class="material-icons">lock</i><span data-i18n="encrypt">Encrypt</span></a>
+                <a tabindex="0" class="editor-tools btn filled icon-left" id="decrypt"><i class="material-icons">lock_open</i><span data-i18n="decrypt">Decrypt</span></a>
             </div>
 
         </div>

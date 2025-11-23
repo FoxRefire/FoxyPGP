@@ -1,0 +1,311 @@
+{
+  "appName": {
+    "message": "FoxyPGP",
+    "description": "Anwendungsname"
+  },
+  "appDescription": {
+    "message": "PGP-Integration für Webbrowser!",
+    "description": "Anwendungsbeschreibung"
+  },
+  "name": {
+    "message": "Name",
+    "description": "Namensbezeichnung"
+  },
+  "email": {
+    "message": "E-Mail",
+    "description": "E-Mail-Bezeichnung"
+  },
+  "type": {
+    "message": "Typ",
+    "description": "Typ-Bezeichnung"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID-Bezeichnung"
+  },
+  "settings": {
+    "message": "Einstellungen",
+    "description": "Einstellungen"
+  },
+  "openEditor": {
+    "message": "Editor öffnen",
+    "description": "Editor öffnen"
+  },
+  "addNewKey": {
+    "message": "Neuen Schlüssel hinzufügen",
+    "description": "Neuen Schlüssel hinzufügen"
+  },
+  "settingsTitle": {
+    "message": "Einstellungen",
+    "description": "Einstellungsseitentitel"
+  },
+  "webpage": {
+    "message": "Webseite",
+    "description": "Webseitenbereich"
+  },
+  "showContextMenu": {
+    "message": "Kontextmenü anzeigen",
+    "description": "Kontextmenü anzeigen Option"
+  },
+  "database": {
+    "message": "Datenbank",
+    "description": "Datenbankbereich"
+  },
+  "backupDatabase": {
+    "message": "Datenbank sichern",
+    "description": "Datenbank sichern Schaltfläche"
+  },
+  "restoreBackup": {
+    "message": "Sicherung wiederherstellen",
+    "description": "Sicherung wiederherstellen Schaltfläche"
+  },
+  "clearDatabase": {
+    "message": "Datenbank löschen",
+    "description": "Datenbank löschen Schaltfläche"
+  },
+  "about": {
+    "message": "Über",
+    "description": "Über-Bereich"
+  },
+  "app": {
+    "message": "App",
+    "description": "App-Bezeichnung"
+  },
+  "version": {
+    "message": "Version",
+    "description": "Versionsbezeichnung"
+  },
+  "author": {
+    "message": "Autor",
+    "description": "Autor-Bezeichnung"
+  },
+  "sourceCode": {
+    "message": "Quellcode",
+    "description": "Quellcode-Bezeichnung"
+  },
+  "license": {
+    "message": "Lizenz",
+    "description": "Lizenz-Bezeichnung"
+  },
+  "addKeys": {
+    "message": "Schlüssel hinzufügen",
+    "description": "Schlüssel hinzufügen Seitentitel"
+  },
+  "generateKeyPair": {
+    "message": "Schlüsselpaar generieren",
+    "description": "Schlüsselpaar generieren Registerkarte"
+  },
+  "importKeyPair": {
+    "message": "Schlüsselpaar importieren",
+    "description": "Schlüsselpaar importieren Registerkarte"
+  },
+  "importPublicKey": {
+    "message": "Öffentlichen Schlüssel importieren",
+    "description": "Öffentlichen Schlüssel importieren Registerkarte"
+  },
+  "namePlaceholder": {
+    "message": "Alice",
+    "description": "Namensplatzhalter"
+  },
+  "nameLabel": {
+    "message": "Name*",
+    "description": "Namensbezeichnung mit Sternchen"
+  },
+  "emailPlaceholder": {
+    "message": "alice@beispiel.de",
+    "description": "E-Mail-Platzhalter"
+  },
+  "emailLabel": {
+    "message": "E-Mail",
+    "description": "E-Mail-Bezeichnung"
+  },
+  "passphrasePlaceholder": {
+    "message": "*********",
+    "description": "Passphrase-Platzhalter"
+  },
+  "passphraseLabel": {
+    "message": "Passphrase*",
+    "description": "Passphrase-Bezeichnung"
+  },
+  "passphraseConfirmLabel": {
+    "message": "Passphrase (bestätigen)*",
+    "description": "Passphrase bestätigen Bezeichnung"
+  },
+  "generate": {
+    "message": "Generieren",
+    "description": "Generieren Schaltfläche"
+  },
+  "privateKey": {
+    "message": "Privater Schlüssel",
+    "description": "Privater Schlüssel Bezeichnung"
+  },
+  "publicKey": {
+    "message": "Öffentlicher Schlüssel",
+    "description": "Öffentlicher Schlüssel Bezeichnung"
+  },
+  "importFromFile": {
+    "message": "Aus Datei importieren",
+    "description": "Aus Datei importieren Schaltfläche"
+  },
+  "import": {
+    "message": "Importieren",
+    "description": "Importieren Schaltfläche"
+  },
+  "editor": {
+    "message": "Editor",
+    "description": "Editor Seitentitel"
+  },
+  "content": {
+    "message": "Inhalt",
+    "description": "Inhalt-Bezeichnung"
+  },
+  "sign": {
+    "message": "Signieren",
+    "description": "Signieren Schaltfläche"
+  },
+  "verify": {
+    "message": "Überprüfen",
+    "description": "Überprüfen Schaltfläche"
+  },
+  "encrypt": {
+    "message": "Verschlüsseln",
+    "description": "Verschlüsseln Schaltfläche"
+  },
+  "decrypt": {
+    "message": "Entschlüsseln",
+    "description": "Entschlüsseln Schaltfläche"
+  },
+  "keyDetails": {
+    "message": "Schlüsseldetails",
+    "description": "Schlüsseldetails Seitentitel"
+  },
+  "openEditorButton": {
+    "message": "Editor öffnen",
+    "description": "Editor öffnen Schaltfläche"
+  },
+  "changePassword": {
+    "message": "Passwort ändern",
+    "description": "Passwort ändern Schaltfläche"
+  },
+  "removeKey": {
+    "message": "Diesen Schlüssel entfernen",
+    "description": "Diesen Schlüssel entfernen Schaltfläche"
+  },
+  "exportPublicKey": {
+    "message": "Öffentlichen Schlüssel exportieren",
+    "description": "Öffentlichen Schlüssel exportieren Schaltfläche"
+  },
+  "exportPrivateKey": {
+    "message": "Privaten Schlüssel exportieren",
+    "description": "Privaten Schlüssel exportieren Schaltfläche"
+  },
+  "creationTime": {
+    "message": "Erstellungszeit",
+    "description": "Erstellungszeit Bezeichnung"
+  },
+  "expirationTime": {
+    "message": "Ablaufzeit",
+    "description": "Ablaufzeit Bezeichnung"
+  },
+  "algorithm": {
+    "message": "Algorithmus",
+    "description": "Algorithmus-Bezeichnung"
+  },
+  "fingerprint": {
+    "message": "Fingerabdruck",
+    "description": "Fingerabdruck-Bezeichnung"
+  },
+  "ok": {
+    "message": "OK",
+    "description": "OK Schaltfläche"
+  },
+  "yes": {
+    "message": "Ja",
+    "description": "Ja Schaltfläche"
+  },
+  "no": {
+    "message": "Nein",
+    "description": "Nein Schaltfläche"
+  },
+  "cancel": {
+    "message": "Abbrechen",
+    "description": "Abbrechen Schaltfläche"
+  },
+  "confirm": {
+    "message": "Bestätigen",
+    "description": "Bestätigen Titel"
+  },
+  "succeed": {
+    "message": "Erfolg",
+    "description": "Erfolg Titel"
+  },
+  "error": {
+    "message": "Fehler",
+    "description": "Fehler Titel"
+  },
+  "keyPairCreated": {
+    "message": "Schlüsselpaar wurde erstellt",
+    "description": "Schlüsselpaar erstellt Nachricht"
+  },
+  "keyPairImported": {
+    "message": "Schlüsselpaar wurde importiert",
+    "description": "Schlüsselpaar importiert Nachricht"
+  },
+  "publicKeyImported": {
+    "message": "Öffentlicher Schlüssel wurde importiert",
+    "description": "Öffentlicher Schlüssel importiert Nachricht"
+  },
+  "signatureVerified": {
+    "message": "Signatur überprüft",
+    "description": "Signatur überprüft Nachricht"
+  },
+  "signatureMismatched": {
+    "message": "Signatur stimmt nicht überein",
+    "description": "Signatur stimmt nicht überein Nachricht"
+  },
+  "decryptionFailed": {
+    "message": "Entschlüsselung fehlgeschlagen",
+    "description": "Entschlüsselung fehlgeschlagen Nachricht"
+  },
+  "passphraseNotMatch": {
+    "message": "Passphrase stimmte nicht überein",
+    "description": "Passphrase stimmt nicht überein Nachricht"
+  },
+  "confirmRestoreBackup": {
+    "message": "Sind Sie sicher, dass Sie die Sicherung wiederherstellen möchten? Dies überschreibt die ursprünglichen Daten.",
+    "description": "Sicherung wiederherstellen bestätigen Nachricht"
+  },
+  "confirmClearDatabase": {
+    "message": "Sind Sie sicher, dass Sie die Datenbank löschen möchten? Ohne Sicherung können Sie sie nie wieder wiederherstellen.",
+    "description": "Datenbank löschen bestätigen Nachricht"
+  },
+  "confirmRemoveKey": {
+    "message": "Sind Sie sicher, dass Sie diesen Schlüssel entfernen möchten? Ohne Sicherung können Sie ihn nie wieder wiederherstellen.",
+    "description": "Schlüssel entfernen bestätigen Nachricht"
+  },
+  "enterPassphrase": {
+    "message": "Passphrase eingeben",
+    "description": "Passphrase eingeben Titel"
+  },
+  "enterPassphraseMessage": {
+    "message": "Geben Sie die Passphrase Ihres privaten Schlüssels ein",
+    "description": "Passphrase eingeben Nachricht"
+  },
+  "setNewPassphrase": {
+    "message": "Neue Passphrase festlegen",
+    "description": "Neue Passphrase festlegen Titel"
+  },
+  "newPassphrase": {
+    "message": "Neue Passphrase",
+    "description": "Neue Passphrase Bezeichnung"
+  },
+  "confirmNewPassphrase": {
+    "message": "Neue Passphrase bestätigen",
+    "description": "Neue Passphrase bestätigen Bezeichnung"
+  },
+  "openAsFoxyPGPEditor": {
+    "message": "Als FoxyPGP-Editor öffnen",
+    "description": "Kontextmenüelement"
+  }
+}
+

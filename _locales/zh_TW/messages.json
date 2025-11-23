@@ -1,0 +1,311 @@
+{
+  "appName": {
+    "message": "FoxyPGP",
+    "description": "應用程式名稱"
+  },
+  "appDescription": {
+    "message": "適用於網頁瀏覽器的PGP整合！",
+    "description": "應用程式描述"
+  },
+  "name": {
+    "message": "姓名",
+    "description": "姓名稱籤"
+  },
+  "email": {
+    "message": "電子郵件",
+    "description": "電子郵件標籤"
+  },
+  "type": {
+    "message": "類型",
+    "description": "類型標籤"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID標籤"
+  },
+  "settings": {
+    "message": "設定",
+    "description": "設定"
+  },
+  "openEditor": {
+    "message": "開啟編輯器",
+    "description": "開啟編輯器"
+  },
+  "addNewKey": {
+    "message": "新增新金鑰",
+    "description": "新增新金鑰"
+  },
+  "settingsTitle": {
+    "message": "設定",
+    "description": "設定頁面標題"
+  },
+  "webpage": {
+    "message": "網頁",
+    "description": "網頁區塊"
+  },
+  "showContextMenu": {
+    "message": "顯示上下文選單",
+    "description": "顯示上下文選單選項"
+  },
+  "database": {
+    "message": "資料庫",
+    "description": "資料庫區塊"
+  },
+  "backupDatabase": {
+    "message": "備份資料庫",
+    "description": "備份資料庫按鈕"
+  },
+  "restoreBackup": {
+    "message": "還原備份",
+    "description": "還原備份按鈕"
+  },
+  "clearDatabase": {
+    "message": "清除資料庫",
+    "description": "清除資料庫按鈕"
+  },
+  "about": {
+    "message": "關於",
+    "description": "關於區塊"
+  },
+  "app": {
+    "message": "應用程式",
+    "description": "應用程式標籤"
+  },
+  "version": {
+    "message": "版本",
+    "description": "版本標籤"
+  },
+  "author": {
+    "message": "作者",
+    "description": "作者標籤"
+  },
+  "sourceCode": {
+    "message": "原始碼",
+    "description": "原始碼標籤"
+  },
+  "license": {
+    "message": "授權",
+    "description": "授權標籤"
+  },
+  "addKeys": {
+    "message": "新增金鑰",
+    "description": "新增金鑰頁面標題"
+  },
+  "generateKeyPair": {
+    "message": "產生金鑰對",
+    "description": "產生金鑰對標籤"
+  },
+  "importKeyPair": {
+    "message": "匯入金鑰對",
+    "description": "匯入金鑰對標籤"
+  },
+  "importPublicKey": {
+    "message": "匯入公開金鑰",
+    "description": "匯入公開金鑰標籤"
+  },
+  "namePlaceholder": {
+    "message": "愛麗絲",
+    "description": "姓名佔位符"
+  },
+  "nameLabel": {
+    "message": "姓名*",
+    "description": "帶星號的姓名稱籤"
+  },
+  "emailPlaceholder": {
+    "message": "alice@example.com",
+    "description": "電子郵件佔位符"
+  },
+  "emailLabel": {
+    "message": "電子郵件",
+    "description": "電子郵件標籤"
+  },
+  "passphrasePlaceholder": {
+    "message": "*********",
+    "description": "密碼片語佔位符"
+  },
+  "passphraseLabel": {
+    "message": "密碼片語*",
+    "description": "密碼片語標籤"
+  },
+  "passphraseConfirmLabel": {
+    "message": "密碼片語（確認）*",
+    "description": "密碼片語確認標籤"
+  },
+  "generate": {
+    "message": "產生",
+    "description": "產生按鈕"
+  },
+  "privateKey": {
+    "message": "私密金鑰",
+    "description": "私密金鑰標籤"
+  },
+  "publicKey": {
+    "message": "公開金鑰",
+    "description": "公開金鑰標籤"
+  },
+  "importFromFile": {
+    "message": "從檔案匯入",
+    "description": "從檔案匯入按鈕"
+  },
+  "import": {
+    "message": "匯入",
+    "description": "匯入按鈕"
+  },
+  "editor": {
+    "message": "編輯器",
+    "description": "編輯器頁面標題"
+  },
+  "content": {
+    "message": "內容",
+    "description": "內容標籤"
+  },
+  "sign": {
+    "message": "簽署",
+    "description": "簽署按鈕"
+  },
+  "verify": {
+    "message": "驗證",
+    "description": "驗證按鈕"
+  },
+  "encrypt": {
+    "message": "加密",
+    "description": "加密按鈕"
+  },
+  "decrypt": {
+    "message": "解密",
+    "description": "解密按鈕"
+  },
+  "keyDetails": {
+    "message": "金鑰詳細資訊",
+    "description": "金鑰詳細資訊頁面標題"
+  },
+  "openEditorButton": {
+    "message": "開啟編輯器",
+    "description": "開啟編輯器按鈕"
+  },
+  "changePassword": {
+    "message": "變更密碼",
+    "description": "變更密碼按鈕"
+  },
+  "removeKey": {
+    "message": "刪除此金鑰",
+    "description": "刪除此金鑰按鈕"
+  },
+  "exportPublicKey": {
+    "message": "匯出公開金鑰",
+    "description": "匯出公開金鑰按鈕"
+  },
+  "exportPrivateKey": {
+    "message": "匯出私密金鑰",
+    "description": "匯出私密金鑰按鈕"
+  },
+  "creationTime": {
+    "message": "建立時間",
+    "description": "建立時間標籤"
+  },
+  "expirationTime": {
+    "message": "過期時間",
+    "description": "過期時間標籤"
+  },
+  "algorithm": {
+    "message": "演算法",
+    "description": "演算法標籤"
+  },
+  "fingerprint": {
+    "message": "指紋",
+    "description": "指紋標籤"
+  },
+  "ok": {
+    "message": "確定",
+    "description": "確定按鈕"
+  },
+  "yes": {
+    "message": "是",
+    "description": "是按鈕"
+  },
+  "no": {
+    "message": "否",
+    "description": "否按鈕"
+  },
+  "cancel": {
+    "message": "取消",
+    "description": "取消按鈕"
+  },
+  "confirm": {
+    "message": "確認",
+    "description": "確認標題"
+  },
+  "succeed": {
+    "message": "成功",
+    "description": "成功標題"
+  },
+  "error": {
+    "message": "錯誤",
+    "description": "錯誤標題"
+  },
+  "keyPairCreated": {
+    "message": "金鑰對已建立",
+    "description": "金鑰對已建立訊息"
+  },
+  "keyPairImported": {
+    "message": "金鑰對已匯入",
+    "description": "金鑰對已匯入訊息"
+  },
+  "publicKeyImported": {
+    "message": "公開金鑰已匯入",
+    "description": "公開金鑰已匯入訊息"
+  },
+  "signatureVerified": {
+    "message": "簽章已驗證",
+    "description": "簽章已驗證訊息"
+  },
+  "signatureMismatched": {
+    "message": "簽章不相符",
+    "description": "簽章不相符訊息"
+  },
+  "decryptionFailed": {
+    "message": "解密失敗",
+    "description": "解密失敗訊息"
+  },
+  "passphraseNotMatch": {
+    "message": "密碼片語不相符",
+    "description": "密碼片語不相符訊息"
+  },
+  "confirmRestoreBackup": {
+    "message": "您確定要還原備份嗎？這將覆蓋原始資料。",
+    "description": "確認還原備份訊息"
+  },
+  "confirmClearDatabase": {
+    "message": "您確定要刪除資料庫嗎？除非您有備份，否則將永遠無法再次還原。",
+    "description": "確認清除資料庫訊息"
+  },
+  "confirmRemoveKey": {
+    "message": "您確定要刪除此金鑰嗎？除非您有備份，否則將永遠無法再次還原。",
+    "description": "確認刪除金鑰訊息"
+  },
+  "enterPassphrase": {
+    "message": "輸入密碼片語",
+    "description": "輸入密碼片語標題"
+  },
+  "enterPassphraseMessage": {
+    "message": "請輸入您的私密金鑰密碼片語",
+    "description": "輸入密碼片語訊息"
+  },
+  "setNewPassphrase": {
+    "message": "設定新密碼片語",
+    "description": "設定新密碼片語標題"
+  },
+  "newPassphrase": {
+    "message": "新密碼片語",
+    "description": "新密碼片語標籤"
+  },
+  "confirmNewPassphrase": {
+    "message": "確認新密碼片語",
+    "description": "確認新密碼片語標籤"
+  },
+  "openAsFoxyPGPEditor": {
+    "message": "作為FoxyPGP編輯器開啟",
+    "description": "上下文選單項目"
+  }
+}
+

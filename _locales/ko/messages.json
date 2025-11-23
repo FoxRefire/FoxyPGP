@@ -1,0 +1,311 @@
+{
+  "appName": {
+    "message": "FoxyPGP",
+    "description": "애플리케이션 이름"
+  },
+  "appDescription": {
+    "message": "웹 브라우저용 PGP 통합!",
+    "description": "애플리케이션 설명"
+  },
+  "name": {
+    "message": "이름",
+    "description": "이름 레이블"
+  },
+  "email": {
+    "message": "이메일",
+    "description": "이메일 레이블"
+  },
+  "type": {
+    "message": "유형",
+    "description": "유형 레이블"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID 레이블"
+  },
+  "settings": {
+    "message": "설정",
+    "description": "설정"
+  },
+  "openEditor": {
+    "message": "에디터 열기",
+    "description": "에디터 열기"
+  },
+  "addNewKey": {
+    "message": "새 키 추가",
+    "description": "새 키 추가"
+  },
+  "settingsTitle": {
+    "message": "설정",
+    "description": "설정 페이지 제목"
+  },
+  "webpage": {
+    "message": "웹페이지",
+    "description": "웹페이지 섹션"
+  },
+  "showContextMenu": {
+    "message": "컨텍스트 메뉴 표시",
+    "description": "컨텍스트 메뉴 표시 옵션"
+  },
+  "database": {
+    "message": "데이터베이스",
+    "description": "데이터베이스 섹션"
+  },
+  "backupDatabase": {
+    "message": "데이터베이스 백업",
+    "description": "데이터베이스 백업 버튼"
+  },
+  "restoreBackup": {
+    "message": "백업 복원",
+    "description": "백업 복원 버튼"
+  },
+  "clearDatabase": {
+    "message": "데이터베이스 지우기",
+    "description": "데이터베이스 지우기 버튼"
+  },
+  "about": {
+    "message": "정보",
+    "description": "정보 섹션"
+  },
+  "app": {
+    "message": "앱",
+    "description": "앱 레이블"
+  },
+  "version": {
+    "message": "버전",
+    "description": "버전 레이블"
+  },
+  "author": {
+    "message": "작성자",
+    "description": "작성자 레이블"
+  },
+  "sourceCode": {
+    "message": "소스 코드",
+    "description": "소스 코드 레이블"
+  },
+  "license": {
+    "message": "라이선스",
+    "description": "라이선스 레이블"
+  },
+  "addKeys": {
+    "message": "키 추가",
+    "description": "키 추가 페이지 제목"
+  },
+  "generateKeyPair": {
+    "message": "키 쌍 생성",
+    "description": "키 쌍 생성 탭"
+  },
+  "importKeyPair": {
+    "message": "키 쌍 가져오기",
+    "description": "키 쌍 가져오기 탭"
+  },
+  "importPublicKey": {
+    "message": "공개 키 가져오기",
+    "description": "공개 키 가져오기 탭"
+  },
+  "namePlaceholder": {
+    "message": "앨리스",
+    "description": "이름 플레이스홀더"
+  },
+  "nameLabel": {
+    "message": "이름*",
+    "description": "별표가 있는 이름 레이블"
+  },
+  "emailPlaceholder": {
+    "message": "alice@example.com",
+    "description": "이메일 플레이스홀더"
+  },
+  "emailLabel": {
+    "message": "이메일",
+    "description": "이메일 레이블"
+  },
+  "passphrasePlaceholder": {
+    "message": "*********",
+    "description": "암호 구문 플레이스홀더"
+  },
+  "passphraseLabel": {
+    "message": "암호 구문*",
+    "description": "암호 구문 레이블"
+  },
+  "passphraseConfirmLabel": {
+    "message": "암호 구문 (확인)*",
+    "description": "암호 구문 확인 레이블"
+  },
+  "generate": {
+    "message": "생성",
+    "description": "생성 버튼"
+  },
+  "privateKey": {
+    "message": "개인 키",
+    "description": "개인 키 레이블"
+  },
+  "publicKey": {
+    "message": "공개 키",
+    "description": "공개 키 레이블"
+  },
+  "importFromFile": {
+    "message": "파일에서 가져오기",
+    "description": "파일에서 가져오기 버튼"
+  },
+  "import": {
+    "message": "가져오기",
+    "description": "가져오기 버튼"
+  },
+  "editor": {
+    "message": "에디터",
+    "description": "에디터 페이지 제목"
+  },
+  "content": {
+    "message": "내용",
+    "description": "내용 레이블"
+  },
+  "sign": {
+    "message": "서명",
+    "description": "서명 버튼"
+  },
+  "verify": {
+    "message": "확인",
+    "description": "확인 버튼"
+  },
+  "encrypt": {
+    "message": "암호화",
+    "description": "암호화 버튼"
+  },
+  "decrypt": {
+    "message": "복호화",
+    "description": "복호화 버튼"
+  },
+  "keyDetails": {
+    "message": "키 세부 정보",
+    "description": "키 세부 정보 페이지 제목"
+  },
+  "openEditorButton": {
+    "message": "에디터 열기",
+    "description": "에디터 열기 버튼"
+  },
+  "changePassword": {
+    "message": "비밀번호 변경",
+    "description": "비밀번호 변경 버튼"
+  },
+  "removeKey": {
+    "message": "이 키 제거",
+    "description": "이 키 제거 버튼"
+  },
+  "exportPublicKey": {
+    "message": "공개 키 내보내기",
+    "description": "공개 키 내보내기 버튼"
+  },
+  "exportPrivateKey": {
+    "message": "개인 키 내보내기",
+    "description": "개인 키 내보내기 버튼"
+  },
+  "creationTime": {
+    "message": "생성 시간",
+    "description": "생성 시간 레이블"
+  },
+  "expirationTime": {
+    "message": "만료 시간",
+    "description": "만료 시간 레이블"
+  },
+  "algorithm": {
+    "message": "알고리즘",
+    "description": "알고리즘 레이블"
+  },
+  "fingerprint": {
+    "message": "지문",
+    "description": "지문 레이블"
+  },
+  "ok": {
+    "message": "확인",
+    "description": "확인 버튼"
+  },
+  "yes": {
+    "message": "예",
+    "description": "예 버튼"
+  },
+  "no": {
+    "message": "아니오",
+    "description": "아니오 버튼"
+  },
+  "cancel": {
+    "message": "취소",
+    "description": "취소 버튼"
+  },
+  "confirm": {
+    "message": "확인",
+    "description": "확인 제목"
+  },
+  "succeed": {
+    "message": "성공",
+    "description": "성공 제목"
+  },
+  "error": {
+    "message": "오류",
+    "description": "오류 제목"
+  },
+  "keyPairCreated": {
+    "message": "키 쌍이 생성되었습니다",
+    "description": "키 쌍 생성 메시지"
+  },
+  "keyPairImported": {
+    "message": "키 쌍이 가져와졌습니다",
+    "description": "키 쌍 가져오기 메시지"
+  },
+  "publicKeyImported": {
+    "message": "공개 키가 가져와졌습니다",
+    "description": "공개 키 가져오기 메시지"
+  },
+  "signatureVerified": {
+    "message": "서명이 확인되었습니다",
+    "description": "서명 확인 메시지"
+  },
+  "signatureMismatched": {
+    "message": "서명이 일치하지 않습니다",
+    "description": "서명 불일치 메시지"
+  },
+  "decryptionFailed": {
+    "message": "복호화에 실패했습니다",
+    "description": "복호화 실패 메시지"
+  },
+  "passphraseNotMatch": {
+    "message": "암호 구문이 일치하지 않았습니다",
+    "description": "암호 구문 불일치 메시지"
+  },
+  "confirmRestoreBackup": {
+    "message": "백업을 복원하시겠습니까? 이 작업은 원본 데이터를 덮어씁니다.",
+    "description": "백업 복원 확인 메시지"
+  },
+  "confirmClearDatabase": {
+    "message": "데이터베이스를 삭제하시겠습니까? 백업이 없으면 다시 복원할 수 없습니다.",
+    "description": "데이터베이스 지우기 확인 메시지"
+  },
+  "confirmRemoveKey": {
+    "message": "이 키를 제거하시겠습니까? 백업이 없으면 다시 복원할 수 없습니다.",
+    "description": "키 제거 확인 메시지"
+  },
+  "enterPassphrase": {
+    "message": "암호 구문 입력",
+    "description": "암호 구문 입력 제목"
+  },
+  "enterPassphraseMessage": {
+    "message": "개인 키의 암호 구문을 입력하세요",
+    "description": "암호 구문 입력 메시지"
+  },
+  "setNewPassphrase": {
+    "message": "새 암호 구문 설정",
+    "description": "새 암호 구문 설정 제목"
+  },
+  "newPassphrase": {
+    "message": "새 암호 구문",
+    "description": "새 암호 구문 레이블"
+  },
+  "confirmNewPassphrase": {
+    "message": "새 암호 구문 확인",
+    "description": "새 암호 구문 확인 레이블"
+  },
+  "openAsFoxyPGPEditor": {
+    "message": "FoxyPGP 에디터로 열기",
+    "description": "컨텍스트 메뉴 항목"
+  }
+}
+
